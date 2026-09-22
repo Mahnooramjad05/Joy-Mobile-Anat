@@ -1,0 +1,7389 @@
+{
+  "scraped_at": "2026-09-21T22:44:48",
+  "count": 321,
+  "devices": [
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 11",
+      "storage": "256GB",
+      "release_year": 2019,
+      "price": 115,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 115,
+        "Intact": 113,
+        "Cracked": 47,
+        "Faulty": 47
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9824,
+        "Cracked": 0.407,
+        "Faulty": 0.407
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 11",
+      "storage": "128GB",
+      "release_year": 2019,
+      "price": 108,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 108,
+        "Intact": 106,
+        "Cracked": 40,
+        "Faulty": 40
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9786,
+        "Cracked": 0.369,
+        "Faulty": 0.369
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 11",
+      "storage": "64GB",
+      "release_year": 2019,
+      "price": 96,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 96,
+        "Intact": 93,
+        "Cracked": 35,
+        "Faulty": 35
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.967,
+        "Cracked": 0.3664,
+        "Faulty": 0.3664
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 11 Pro",
+      "storage": "512GB",
+      "release_year": 2019,
+      "price": 125,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 125,
+        "Intact": 119,
+        "Cracked": 54,
+        "Faulty": 54
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9492,
+        "Cracked": 0.4319,
+        "Faulty": 0.4319
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 11 Pro",
+      "storage": "256GB",
+      "release_year": 2019,
+      "price": 136,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 136,
+        "Intact": 123,
+        "Cracked": 49,
+        "Faulty": 45
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9047,
+        "Cracked": 0.3623,
+        "Faulty": 0.3284
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 11 Pro",
+      "storage": "64GB",
+      "release_year": 2019,
+      "price": 92,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 92,
+        "Intact": 92,
+        "Cracked": 40,
+        "Faulty": 40
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.434,
+        "Faulty": 0.434
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 11 Pro Max",
+      "storage": "512GB",
+      "release_year": 2019,
+      "price": 143,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 143,
+        "Intact": 143,
+        "Cracked": 64,
+        "Faulty": 64
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4435,
+        "Faulty": 0.4435
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 11 Pro Max",
+      "storage": "256GB",
+      "release_year": 2019,
+      "price": 153,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 153,
+        "Intact": 141,
+        "Cracked": 61,
+        "Faulty": 61
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9225,
+        "Cracked": 0.3989,
+        "Faulty": 0.3989
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 11 Pro Max",
+      "storage": "64GB",
+      "release_year": 2019,
+      "price": 122,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 122,
+        "Intact": 122,
+        "Cracked": 59,
+        "Faulty": 59
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4823,
+        "Faulty": 0.4823
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 12",
+      "storage": "256GB",
+      "release_year": 2020,
+      "price": 145,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 145,
+        "Intact": 136,
+        "Cracked": 66,
+        "Faulty": 66
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9421,
+        "Cracked": 0.4551,
+        "Faulty": 0.4551
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 12",
+      "storage": "128GB",
+      "release_year": 2020,
+      "price": 135,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 135,
+        "Intact": 123,
+        "Cracked": 64,
+        "Faulty": 64
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9124,
+        "Cracked": 0.4701,
+        "Faulty": 0.4701
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 12",
+      "storage": "64GB",
+      "release_year": 2020,
+      "price": 114,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 114,
+        "Intact": 110,
+        "Cracked": 56,
+        "Faulty": 56
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9646,
+        "Cracked": 0.4924,
+        "Faulty": 0.4924
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 12 Mini",
+      "storage": "256GB",
+      "release_year": 2020,
+      "price": 127,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 127,
+        "Intact": 101,
+        "Cracked": 47,
+        "Faulty": 45
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7932,
+        "Cracked": 0.3682,
+        "Faulty": 0.3523
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 12 Mini",
+      "storage": "128GB",
+      "release_year": 2020,
+      "price": 127,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 127,
+        "Intact": 127,
+        "Cracked": 56,
+        "Faulty": 56
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4432,
+        "Faulty": 0.4432
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 12 Mini",
+      "storage": "64GB",
+      "release_year": 2020,
+      "price": 106,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 106,
+        "Intact": 106,
+        "Cracked": 56,
+        "Faulty": 56
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5328,
+        "Faulty": 0.5328
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 12 Pro",
+      "storage": "512GB",
+      "release_year": 2020,
+      "price": 156,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 156,
+        "Intact": 147,
+        "Cracked": 82,
+        "Faulty": 82
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9409,
+        "Cracked": 0.5268,
+        "Faulty": 0.5268
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 12 Pro",
+      "storage": "256GB",
+      "release_year": 2020,
+      "price": 177,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 177,
+        "Intact": 153,
+        "Cracked": 71,
+        "Faulty": 71
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8658,
+        "Cracked": 0.3993,
+        "Faulty": 0.3993
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 12 Pro",
+      "storage": "128GB",
+      "release_year": 2020,
+      "price": 147,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 147,
+        "Intact": 147,
+        "Cracked": 66,
+        "Faulty": 66
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4479,
+        "Faulty": 0.4479
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 12 Pro Max",
+      "storage": "512GB",
+      "release_year": 2020,
+      "price": 194,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 194,
+        "Intact": 189,
+        "Cracked": 98,
+        "Faulty": 92
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9762,
+        "Cracked": 0.5037,
+        "Faulty": 0.4739
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 12 Pro Max",
+      "storage": "256GB",
+      "release_year": 2020,
+      "price": 207,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 207,
+        "Intact": 181,
+        "Cracked": 89,
+        "Faulty": 89
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8745,
+        "Cracked": 0.431,
+        "Faulty": 0.431
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 12 Pro Max",
+      "storage": "128GB",
+      "release_year": 2020,
+      "price": 179,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 179,
+        "Intact": 179,
+        "Cracked": 92,
+        "Faulty": 92
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5146,
+        "Faulty": 0.5146
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13",
+      "storage": "512GB",
+      "release_year": 2021,
+      "price": 231,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 231,
+        "Intact": 193,
+        "Cracked": 80,
+        "Faulty": 80
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8358,
+        "Cracked": 0.3459,
+        "Faulty": 0.3459
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13",
+      "storage": "256GB",
+      "release_year": 2021,
+      "price": 195,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 195,
+        "Intact": 188,
+        "Cracked": 85,
+        "Faulty": 85
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9644,
+        "Cracked": 0.4341,
+        "Faulty": 0.4341
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13",
+      "storage": "128GB",
+      "release_year": 2021,
+      "price": 194,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 194,
+        "Intact": 167,
+        "Cracked": 86,
+        "Faulty": 86
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8601,
+        "Cracked": 0.442,
+        "Faulty": 0.442
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13 Mini",
+      "storage": "512GB",
+      "release_year": 2021,
+      "price": 200,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 200,
+        "Intact": 167,
+        "Cracked": 80,
+        "Faulty": 80
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8353,
+        "Cracked": 0.3988,
+        "Faulty": 0.3988
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13 Mini",
+      "storage": "256GB",
+      "release_year": 2021,
+      "price": 172,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 172,
+        "Intact": 155,
+        "Cracked": 80,
+        "Faulty": 80
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.904,
+        "Cracked": 0.4646,
+        "Faulty": 0.4646
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13 Mini",
+      "storage": "128GB",
+      "release_year": 2021,
+      "price": 166,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 166,
+        "Intact": 141,
+        "Cracked": 78,
+        "Faulty": 78
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8517,
+        "Cracked": 0.4695,
+        "Faulty": 0.4695
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13 Pro",
+      "storage": "1TB",
+      "release_year": 2021,
+      "price": 276,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 276,
+        "Intact": 259,
+        "Cracked": 128,
+        "Faulty": 128
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9362,
+        "Cracked": 0.4644,
+        "Faulty": 0.4644
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13 Pro",
+      "storage": "512GB",
+      "release_year": 2021,
+      "price": 261,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 261,
+        "Intact": 256,
+        "Cracked": 123,
+        "Faulty": 123
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9823,
+        "Cracked": 0.4729,
+        "Faulty": 0.4729
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13 Pro",
+      "storage": "256GB",
+      "release_year": 2021,
+      "price": 243,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 243,
+        "Intact": 243,
+        "Cracked": 105,
+        "Faulty": 105
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4299,
+        "Faulty": 0.4299
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13 Pro",
+      "storage": "128GB",
+      "release_year": 2021,
+      "price": 222,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 222,
+        "Intact": 218,
+        "Cracked": 92,
+        "Faulty": 92
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9831,
+        "Cracked": 0.4135,
+        "Faulty": 0.4135
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13 Pro Max",
+      "storage": "1TB",
+      "release_year": 2021,
+      "price": 336,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 336,
+        "Intact": 321,
+        "Cracked": 143,
+        "Faulty": 143
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9545,
+        "Cracked": 0.4261,
+        "Faulty": 0.4261
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13 Pro Max",
+      "storage": "512GB",
+      "release_year": 2021,
+      "price": 312,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 312,
+        "Intact": 299,
+        "Cracked": 125,
+        "Faulty": 125
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9583,
+        "Cracked": 0.3998,
+        "Faulty": 0.3998
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13 Pro Max",
+      "storage": "256GB",
+      "release_year": 2021,
+      "price": 299,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 299,
+        "Intact": 273,
+        "Cracked": 115,
+        "Faulty": 101
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9138,
+        "Cracked": 0.3853,
+        "Faulty": 0.3379
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 13 Pro Max",
+      "storage": "128GB",
+      "release_year": 2021,
+      "price": 259,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 259,
+        "Intact": 248,
+        "Cracked": 120,
+        "Faulty": 96
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9587,
+        "Cracked": 0.4637,
+        "Faulty": 0.3721
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14",
+      "storage": "512GB",
+      "release_year": 2022,
+      "price": 254,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 254,
+        "Intact": 243,
+        "Cracked": 119,
+        "Faulty": 119
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9568,
+        "Cracked": 0.4693,
+        "Faulty": 0.4693
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14",
+      "storage": "256GB",
+      "release_year": 2022,
+      "price": 250,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 250,
+        "Intact": 228,
+        "Cracked": 116,
+        "Faulty": 116
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9132,
+        "Cracked": 0.4664,
+        "Faulty": 0.4664
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14",
+      "storage": "128GB",
+      "release_year": 2022,
+      "price": 218,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 218,
+        "Intact": 205,
+        "Cracked": 111,
+        "Faulty": 111
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9365,
+        "Cracked": 0.5079,
+        "Faulty": 0.5079
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14 Plus",
+      "storage": "512GB",
+      "release_year": 2022,
+      "price": 233,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 233,
+        "Intact": 223,
+        "Cracked": 111,
+        "Faulty": 111
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9602,
+        "Cracked": 0.477,
+        "Faulty": 0.477
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14 Plus",
+      "storage": "256GB",
+      "release_year": 2022,
+      "price": 241,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 241,
+        "Intact": 229,
+        "Cracked": 111,
+        "Faulty": 111
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9497,
+        "Cracked": 0.4599,
+        "Faulty": 0.4599
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14 Plus",
+      "storage": "128GB",
+      "release_year": 2022,
+      "price": 214,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 214,
+        "Intact": 209,
+        "Cracked": 97,
+        "Faulty": 97
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9784,
+        "Cracked": 0.4541,
+        "Faulty": 0.4541
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14 Pro",
+      "storage": "1TB",
+      "release_year": 2022,
+      "price": 388,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 388,
+        "Intact": 346,
+        "Cracked": 148,
+        "Faulty": 148
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8905,
+        "Cracked": 0.382,
+        "Faulty": 0.382
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14 Pro",
+      "storage": "512GB",
+      "release_year": 2022,
+      "price": 327,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 327,
+        "Intact": 312,
+        "Cracked": 148,
+        "Faulty": 148
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9531,
+        "Cracked": 0.4536,
+        "Faulty": 0.4536
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14 Pro",
+      "storage": "256GB",
+      "release_year": 2022,
+      "price": 299,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 299,
+        "Intact": 287,
+        "Cracked": 139,
+        "Faulty": 139
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9594,
+        "Cracked": 0.4638,
+        "Faulty": 0.4638
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14 Pro",
+      "storage": "128GB",
+      "release_year": 2022,
+      "price": 271,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 271,
+        "Intact": 261,
+        "Cracked": 122,
+        "Faulty": 122
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9637,
+        "Cracked": 0.4514,
+        "Faulty": 0.4514
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14 Pro Max",
+      "storage": "1TB",
+      "release_year": 2022,
+      "price": 423,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 423,
+        "Intact": 367,
+        "Cracked": 179,
+        "Faulty": 179
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8662,
+        "Cracked": 0.4218,
+        "Faulty": 0.4218
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14 Pro Max",
+      "storage": "512GB",
+      "release_year": 2022,
+      "price": 372,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 372,
+        "Intact": 360,
+        "Cracked": 174,
+        "Faulty": 174
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9681,
+        "Cracked": 0.4681,
+        "Faulty": 0.4681
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14 Pro Max",
+      "storage": "256GB",
+      "release_year": 2022,
+      "price": 375,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 375,
+        "Intact": 343,
+        "Cracked": 170,
+        "Faulty": 170
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9167,
+        "Cracked": 0.4545,
+        "Faulty": 0.4545
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 14 Pro Max",
+      "storage": "128GB",
+      "release_year": 2022,
+      "price": 327,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 327,
+        "Intact": 315,
+        "Cracked": 160,
+        "Faulty": 160
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9646,
+        "Cracked": 0.4889,
+        "Faulty": 0.4889
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15",
+      "storage": "512GB",
+      "release_year": 2023,
+      "price": 344,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 344,
+        "Intact": 329,
+        "Cracked": 153,
+        "Faulty": 153
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9555,
+        "Cracked": 0.4438,
+        "Faulty": 0.4438
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15",
+      "storage": "256GB",
+      "release_year": 2023,
+      "price": 326,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 326,
+        "Intact": 310,
+        "Cracked": 150,
+        "Faulty": 150
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.953,
+        "Cracked": 0.4614,
+        "Faulty": 0.4614
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15",
+      "storage": "128GB",
+      "release_year": 2023,
+      "price": 291,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 291,
+        "Intact": 282,
+        "Cracked": 150,
+        "Faulty": 150
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9683,
+        "Cracked": 0.5139,
+        "Faulty": 0.5139
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15 Plus",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 328,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 328,
+        "Intact": 328,
+        "Cracked": 153,
+        "Faulty": 153
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4661,
+        "Faulty": 0.4661
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15 Plus",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 310,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 310,
+        "Intact": 310,
+        "Cracked": 153,
+        "Faulty": 153
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4926,
+        "Faulty": 0.4926
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15 Plus",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 282,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 282,
+        "Intact": 280,
+        "Cracked": 153,
+        "Faulty": 153
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9918,
+        "Cracked": 0.542,
+        "Faulty": 0.542
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15 Pro",
+      "storage": "1TB",
+      "release_year": 2023,
+      "price": 453,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 453,
+        "Intact": 447,
+        "Cracked": 218,
+        "Faulty": 218
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9872,
+        "Cracked": 0.4828,
+        "Faulty": 0.4828
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15 Pro",
+      "storage": "512GB",
+      "release_year": 2023,
+      "price": 429,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 429,
+        "Intact": 407,
+        "Cracked": 215,
+        "Faulty": 215
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9475,
+        "Cracked": 0.501,
+        "Faulty": 0.501
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15 Pro",
+      "storage": "256GB",
+      "release_year": 2023,
+      "price": 406,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 406,
+        "Intact": 400,
+        "Cracked": 215,
+        "Faulty": 215
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.985,
+        "Cracked": 0.5299,
+        "Faulty": 0.5299
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15 Pro",
+      "storage": "128GB",
+      "release_year": 2023,
+      "price": 364,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 364,
+        "Intact": 357,
+        "Cracked": 193,
+        "Faulty": 193
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9802,
+        "Cracked": 0.5289,
+        "Faulty": 0.5289
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15 Pro Max",
+      "storage": "1TB",
+      "release_year": 2023,
+      "price": 499,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 499,
+        "Intact": 474,
+        "Cracked": 221,
+        "Faulty": 221
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9507,
+        "Cracked": 0.4435,
+        "Faulty": 0.4435
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15 Pro Max",
+      "storage": "512GB",
+      "release_year": 2023,
+      "price": 479,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 479,
+        "Intact": 462,
+        "Cracked": 221,
+        "Faulty": 221
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.965,
+        "Cracked": 0.462,
+        "Faulty": 0.462
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15 Pro Max",
+      "storage": "256GB",
+      "release_year": 2023,
+      "price": 464,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 464,
+        "Intact": 434,
+        "Cracked": 218,
+        "Faulty": 218
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.934,
+        "Cracked": 0.4704,
+        "Faulty": 0.4704
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 15 Pro Max",
+      "storage": "128GB",
+      "release_year": 2023,
+      "price": 409,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 409,
+        "Intact": 369,
+        "Cracked": 146,
+        "Faulty": 129
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9025,
+        "Cracked": 0.3559,
+        "Faulty": 0.3157
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16",
+      "storage": "512GB",
+      "release_year": 2024,
+      "price": 420,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 420,
+        "Intact": 387,
+        "Cracked": 184,
+        "Faulty": 184
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9215,
+        "Cracked": 0.4373,
+        "Faulty": 0.4373
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16",
+      "storage": "256GB",
+      "release_year": 2024,
+      "price": 406,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 406,
+        "Intact": 382,
+        "Cracked": 214,
+        "Faulty": 214
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9416,
+        "Cracked": 0.5271,
+        "Faulty": 0.5271
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16",
+      "storage": "128GB",
+      "release_year": 2024,
+      "price": 385,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 385,
+        "Intact": 370,
+        "Cracked": 207,
+        "Faulty": 207
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9609,
+        "Cracked": 0.5379,
+        "Faulty": 0.5379
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16 plus",
+      "storage": "512GB",
+      "release_year": 2024,
+      "price": 451,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 451,
+        "Intact": 427,
+        "Cracked": 219,
+        "Faulty": 219
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9449,
+        "Cracked": 0.4846,
+        "Faulty": 0.4846
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16 plus",
+      "storage": "256GB",
+      "release_year": 2024,
+      "price": 435,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 435,
+        "Intact": 405,
+        "Cracked": 219,
+        "Faulty": 219
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9302,
+        "Cracked": 0.503,
+        "Faulty": 0.503
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16 plus",
+      "storage": "128GB",
+      "release_year": 2024,
+      "price": 420,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 420,
+        "Intact": 392,
+        "Cracked": 164,
+        "Faulty": 164
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9353,
+        "Cracked": 0.3919,
+        "Faulty": 0.3919
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16 Pro",
+      "storage": "1TB",
+      "release_year": 2024,
+      "price": 573,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 573,
+        "Intact": 554,
+        "Cracked": 225,
+        "Faulty": 213
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9672,
+        "Cracked": 0.3922,
+        "Faulty": 0.372
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16 Pro",
+      "storage": "512GB",
+      "release_year": 2024,
+      "price": 558,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 558,
+        "Intact": 532,
+        "Cracked": 280,
+        "Faulty": 280
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9534,
+        "Cracked": 0.5021,
+        "Faulty": 0.5021
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16 Pro",
+      "storage": "256GB",
+      "release_year": 2024,
+      "price": 535,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 535,
+        "Intact": 511,
+        "Cracked": 233,
+        "Faulty": 233
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9557,
+        "Cracked": 0.4354,
+        "Faulty": 0.4354
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16 Pro",
+      "storage": "128GB",
+      "release_year": 2024,
+      "price": 479,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 479,
+        "Intact": 455,
+        "Cracked": 223,
+        "Faulty": 220
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9505,
+        "Cracked": 0.4662,
+        "Faulty": 0.4589
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16 Pro max",
+      "storage": "1TB",
+      "release_year": 2024,
+      "price": 645,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 645,
+        "Intact": 618,
+        "Cracked": 367,
+        "Faulty": 367
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9584,
+        "Cracked": 0.5692,
+        "Faulty": 0.5692
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16 Pro max",
+      "storage": "512GB",
+      "release_year": 2024,
+      "price": 631,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 631,
+        "Intact": 609,
+        "Cracked": 281,
+        "Faulty": 281
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9647,
+        "Cracked": 0.4451,
+        "Faulty": 0.4451
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16 Pro max",
+      "storage": "256GB",
+      "release_year": 2024,
+      "price": 662,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 662,
+        "Intact": 599,
+        "Cracked": 271,
+        "Faulty": 271
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9036,
+        "Cracked": 0.4084,
+        "Faulty": 0.4084
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16e",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 247,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 247,
+        "Intact": 235,
+        "Cracked": 113,
+        "Faulty": 113
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.952,
+        "Cracked": 0.459,
+        "Faulty": 0.459
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16e",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 223,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 223,
+        "Intact": 212,
+        "Cracked": 106,
+        "Faulty": 106
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.947,
+        "Cracked": 0.4735,
+        "Faulty": 0.4735
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 16e",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 212,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 212,
+        "Intact": 200,
+        "Cracked": 94,
+        "Faulty": 94
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.944,
+        "Cracked": 0.444,
+        "Faulty": 0.444
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 17",
+      "storage": "512GB",
+      "release_year": 2025,
+      "price": 418,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 418,
+        "Intact": 415,
+        "Cracked": 177,
+        "Faulty": 177
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9917,
+        "Cracked": 0.422,
+        "Faulty": 0.422
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 17",
+      "storage": "256GB",
+      "release_year": 2025,
+      "price": 412,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 412,
+        "Intact": 399,
+        "Cracked": 177,
+        "Faulty": 177
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9684,
+        "Cracked": 0.4291,
+        "Faulty": 0.4291
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 17 Pro",
+      "storage": "1TB",
+      "release_year": 2025,
+      "price": 664,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 664,
+        "Intact": 650,
+        "Cracked": 294,
+        "Faulty": 294
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9787,
+        "Cracked": 0.4426,
+        "Faulty": 0.4426
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 17 Pro",
+      "storage": "512GB",
+      "release_year": 2025,
+      "price": 630,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 630,
+        "Intact": 608,
+        "Cracked": 277,
+        "Faulty": 277
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9647,
+        "Cracked": 0.4404,
+        "Faulty": 0.4404
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 17 Pro",
+      "storage": "256GB",
+      "release_year": 2025,
+      "price": 576,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 576,
+        "Intact": 557,
+        "Cracked": 259,
+        "Faulty": 259
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9674,
+        "Cracked": 0.4491,
+        "Faulty": 0.4491
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 17 Pro Max",
+      "storage": "2TB",
+      "release_year": 2025,
+      "price": 705,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 705,
+        "Intact": 682,
+        "Cracked": 329,
+        "Faulty": 329
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9672,
+        "Cracked": 0.4668,
+        "Faulty": 0.4668
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 17 Pro Max",
+      "storage": "1TB",
+      "release_year": 2025,
+      "price": 705,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 705,
+        "Intact": 682,
+        "Cracked": 329,
+        "Faulty": 329
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9672,
+        "Cracked": 0.4668,
+        "Faulty": 0.4668
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 17 Pro Max",
+      "storage": "512GB",
+      "release_year": 2025,
+      "price": 682,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 682,
+        "Intact": 658,
+        "Cracked": 317,
+        "Faulty": 317
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9653,
+        "Cracked": 0.4653,
+        "Faulty": 0.4653
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 17 Pro Max",
+      "storage": "256GB",
+      "release_year": 2025,
+      "price": 658,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 658,
+        "Intact": 640,
+        "Cracked": 314,
+        "Faulty": 314
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9715,
+        "Cracked": 0.4763,
+        "Faulty": 0.4763
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 17e",
+      "storage": "512GB",
+      "release_year": 2026,
+      "price": 223,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 223,
+        "Intact": 207,
+        "Cracked": 94,
+        "Faulty": 94
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9263,
+        "Cracked": 0.4204,
+        "Faulty": 0.4204
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 17e",
+      "storage": "256GB",
+      "release_year": 2026,
+      "price": 212,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 212,
+        "Intact": 193,
+        "Cracked": 82,
+        "Faulty": 82
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9112,
+        "Cracked": 0.3893,
+        "Faulty": 0.3893
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 7",
+      "storage": "256GB",
+      "release_year": 2016,
+      "price": 10,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 10,
+        "Intact": 10,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4444,
+        "Faulty": 0.4444
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 7",
+      "storage": "128GB",
+      "release_year": 2016,
+      "price": 10,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 10,
+        "Intact": 10,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4444,
+        "Faulty": 0.4444
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 7",
+      "storage": "32GB",
+      "release_year": 2016,
+      "price": 10,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 10,
+        "Intact": 10,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4444,
+        "Faulty": 0.4444
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 7 Plus",
+      "storage": "256GB",
+      "release_year": 2016,
+      "price": 10,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 10,
+        "Intact": 10,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4444,
+        "Faulty": 0.4444
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 7 Plus",
+      "storage": "128GB",
+      "release_year": 2016,
+      "price": 10,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 10,
+        "Intact": 10,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4444,
+        "Faulty": 0.4444
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 7 Plus",
+      "storage": "32GB",
+      "release_year": 2016,
+      "price": 10,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 10,
+        "Intact": 10,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4444,
+        "Faulty": 0.4444
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 8",
+      "storage": "256GB",
+      "release_year": 2017,
+      "price": 19,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 19,
+        "Intact": 14,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7164,
+        "Cracked": 0.5075,
+        "Faulty": 0.5075
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 8",
+      "storage": "64GB",
+      "release_year": 2017,
+      "price": 10,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 10,
+        "Intact": 10,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4444,
+        "Faulty": 0.4444
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 8 Plus",
+      "storage": "256GB",
+      "release_year": 2017,
+      "price": 28,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 28,
+        "Intact": 19,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.6979,
+        "Cracked": 0.3542,
+        "Faulty": 0.3542
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 8 Plus",
+      "storage": "128GB",
+      "release_year": 2017,
+      "price": 10,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 10,
+        "Intact": 10,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4444,
+        "Faulty": 0.4444
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone 8 Plus",
+      "storage": "64GB",
+      "release_year": 2017,
+      "price": 28,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 28,
+        "Intact": 19,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.6979,
+        "Cracked": 0.3542,
+        "Faulty": 0.3542
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone SE (2016)",
+      "storage": "128GB",
+      "release_year": 2016,
+      "price": 10,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 10,
+        "Intact": 10,
+        "Cracked": 4,
+        "Faulty": 4
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3889,
+        "Faulty": 0.3889
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone SE (2016)",
+      "storage": "64GB",
+      "release_year": 2016,
+      "price": 10,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 10,
+        "Intact": 10,
+        "Cracked": 4,
+        "Faulty": 4
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3889,
+        "Faulty": 0.3889
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone SE (2016)",
+      "storage": "32GB",
+      "release_year": 2016,
+      "price": 10,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 10,
+        "Intact": 10,
+        "Cracked": 4,
+        "Faulty": 4
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3889,
+        "Faulty": 0.3889
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone SE (2020)",
+      "storage": "256GB",
+      "release_year": 2020,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 36,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3333,
+        "Faulty": 0.3333
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone SE (2020)",
+      "storage": "128GB",
+      "release_year": 2020,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 36,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3333,
+        "Faulty": 0.3333
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone SE (2020)",
+      "storage": "64GB",
+      "release_year": 2020,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 36,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3333,
+        "Faulty": 0.3333
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone SE (2022)",
+      "storage": "256GB",
+      "release_year": 2022,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 36,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3333,
+        "Faulty": 0.3333
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone SE (2022)",
+      "storage": "128GB",
+      "release_year": 2022,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 36,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3333,
+        "Faulty": 0.3333
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone SE (2022)",
+      "storage": "64GB",
+      "release_year": 2022,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 36,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3333,
+        "Faulty": 0.3333
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone X",
+      "storage": "256GB",
+      "release_year": 2017,
+      "price": 39,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 39,
+        "Intact": 25,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.6567,
+        "Cracked": 0.4328,
+        "Faulty": 0.4328
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone X",
+      "storage": "64GB",
+      "release_year": 2017,
+      "price": 39,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 39,
+        "Intact": 24,
+        "Cracked": 14,
+        "Faulty": 11
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.6119,
+        "Cracked": 0.3582,
+        "Faulty": 0.2761
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone XR",
+      "storage": "256GB",
+      "release_year": 2018,
+      "price": 40,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 40,
+        "Intact": 29,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7174,
+        "Cracked": 0.4203,
+        "Faulty": 0.4203
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone XR",
+      "storage": "128GB",
+      "release_year": 2018,
+      "price": 40,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 40,
+        "Intact": 29,
+        "Cracked": 14,
+        "Faulty": 14
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7174,
+        "Cracked": 0.3551,
+        "Faulty": 0.3551
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone XR",
+      "storage": "64GB",
+      "release_year": 2018,
+      "price": 39,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 39,
+        "Intact": 26,
+        "Cracked": 14,
+        "Faulty": 11
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.6791,
+        "Cracked": 0.3582,
+        "Faulty": 0.2761
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone XS",
+      "storage": "512GB",
+      "release_year": 2018,
+      "price": 41,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 41,
+        "Intact": 41,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4085,
+        "Faulty": 0.4085
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone XS",
+      "storage": "256GB",
+      "release_year": 2018,
+      "price": 41,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 41,
+        "Intact": 41,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4085,
+        "Faulty": 0.4085
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone XS",
+      "storage": "64GB",
+      "release_year": 2018,
+      "price": 39,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 39,
+        "Intact": 32,
+        "Cracked": 11,
+        "Faulty": 11
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8284,
+        "Cracked": 0.2761,
+        "Faulty": 0.2761
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone XS Max",
+      "storage": "512GB",
+      "release_year": 2018,
+      "price": 54,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 54,
+        "Intact": 47,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8717,
+        "Cracked": 0.3209,
+        "Faulty": 0.3209
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone XS Max",
+      "storage": "256GB",
+      "release_year": 2018,
+      "price": 54,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 54,
+        "Intact": 47,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8717,
+        "Cracked": 0.3209,
+        "Faulty": 0.3209
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Apple",
+      "model_name": "iPhone XS Max",
+      "storage": "64GB",
+      "release_year": 2018,
+      "price": 53,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 53,
+        "Intact": 35,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.6595,
+        "Cracked": 0.3243,
+        "Faulty": 0.3243
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 6 Pro",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 62,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 62,
+        "Intact": 48,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7685,
+        "Cracked": 0.0556,
+        "Faulty": 0.0556
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 6 Pro",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 44,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 44,
+        "Intact": 38,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8609,
+        "Cracked": 0.0795,
+        "Faulty": 0.0795
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 6a",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 39,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 39,
+        "Intact": 35,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9037,
+        "Cracked": 0.0889,
+        "Faulty": 0.0889
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 7",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 75,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 75,
+        "Intact": 62,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8161,
+        "Cracked": 0.046,
+        "Faulty": 0.046
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 7",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 73,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 73,
+        "Intact": 57,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7778,
+        "Cracked": 0.0476,
+        "Faulty": 0.0476
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 7 Pro",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 80,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 80,
+        "Intact": 62,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.769,
+        "Cracked": 0.0433,
+        "Faulty": 0.0433
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 7 Pro",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 78,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 78,
+        "Intact": 62,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7918,
+        "Cracked": 0.0446,
+        "Faulty": 0.0446
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 7a",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 73,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 73,
+        "Intact": 57,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7778,
+        "Cracked": 0.0476,
+        "Faulty": 0.0476
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 8",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 83,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 83,
+        "Intact": 83,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1154,
+        "Faulty": 0.1154
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 8",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 83,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 83,
+        "Intact": 83,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1154,
+        "Faulty": 0.1154
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 8 Pro",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 127,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 127,
+        "Intact": 116,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9091,
+        "Cracked": 0.075,
+        "Faulty": 0.075
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 8 Pro",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 116,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 116,
+        "Intact": 116,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.0825,
+        "Faulty": 0.0825
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 8 Pro",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 116,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 116,
+        "Intact": 116,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.0825,
+        "Faulty": 0.0825
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 8a",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 78,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 78,
+        "Intact": 71,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9074,
+        "Cracked": 0.1222,
+        "Faulty": 0.1222
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 9a",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 177,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 177,
+        "Intact": 165,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.933,
+        "Cracked": 0.0539,
+        "Faulty": 0.0539
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Google",
+      "model_name": "Pixel 9a",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 177,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 177,
+        "Intact": 165,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.933,
+        "Cracked": 0.0539,
+        "Faulty": 0.0539
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 10 Pro (5G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 75,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 75,
+        "Intact": 55,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7336,
+        "Cracked": 0.0386,
+        "Faulty": 0.0386
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 10 Pro (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 121,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 121,
+        "Intact": 86,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7112,
+        "Cracked": 0.0453,
+        "Faulty": 0.0453
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 10 Pro (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 58,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 58,
+        "Intact": 41,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7136,
+        "Cracked": 0.0503,
+        "Faulty": 0.0503
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 10R",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 45,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 45,
+        "Intact": 31,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.6923,
+        "Cracked": 0.0641,
+        "Faulty": 0.0641
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 10T (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 45,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 45,
+        "Intact": 34,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7564,
+        "Cracked": 0.0641,
+        "Faulty": 0.0641
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 10T(5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 58,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 58,
+        "Intact": 48,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8291,
+        "Cracked": 0.0503,
+        "Faulty": 0.0503
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 11",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 85,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 85,
+        "Intact": 73,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8601,
+        "Cracked": 0.0648,
+        "Faulty": 0.0648
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 11R",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 75,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 75,
+        "Intact": 55,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7336,
+        "Cracked": 0.0386,
+        "Faulty": 0.0386
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 12",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 89,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 89,
+        "Intact": 89,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1294,
+        "Faulty": 0.1294
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 12R",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 89,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 89,
+        "Intact": 89,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1294,
+        "Faulty": 0.1294
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 13",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 188,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 188,
+        "Intact": 188,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.0614,
+        "Faulty": 0.0614
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 13",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 99,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 99,
+        "Intact": 99,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.117,
+        "Faulty": 0.117
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 13R",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 141,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 141,
+        "Intact": 141,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.082,
+        "Faulty": 0.082
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 15",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 259,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 259,
+        "Intact": 259,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.0447,
+        "Faulty": 0.0447
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 15",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 223,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 223,
+        "Intact": 223,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.0517,
+        "Faulty": 0.0517
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 15R",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 212,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 212,
+        "Intact": 212,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.0546,
+        "Faulty": 0.0546
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 15R",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 212,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 212,
+        "Intact": 212,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.0546,
+        "Faulty": 0.0546
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 9",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 30,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 30,
+        "Intact": 18,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.6095,
+        "Cracked": 0.0952,
+        "Faulty": 0.0952
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 9 Pro",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 34,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 34,
+        "Intact": 22,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.6356,
+        "Cracked": 0.0847,
+        "Faulty": 0.0847
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus 9RT (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 38,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 38,
+        "Intact": 26,
+        "Cracked": 3,
+        "Faulty": 3
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.6894,
+        "Cracked": 0.0758,
+        "Faulty": 0.0758
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus Nord 4",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 59,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 59,
+        "Intact": 59,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1961,
+        "Faulty": 0.1961
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus Nord 4",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 59,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 59,
+        "Intact": 59,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1961,
+        "Faulty": 0.1961
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus Nord 5",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 71,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 71,
+        "Intact": 71,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1639,
+        "Faulty": 0.1639
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "OnePlus",
+      "model_name": "OnePlus Nord 5",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 71,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 71,
+        "Intact": 71,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1639,
+        "Faulty": 0.1639
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Oppo",
+      "model_name": "A04",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 7,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 7,
+        "Intact": 7,
+        "Cracked": 1,
+        "Faulty": 1
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1667,
+        "Faulty": 0.1667
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Oppo",
+      "model_name": "A04",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 7,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 7,
+        "Intact": 7,
+        "Cracked": 1,
+        "Faulty": 1
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1667,
+        "Faulty": 0.1667
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Oppo",
+      "model_name": "A14",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 17,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 17,
+        "Intact": 17,
+        "Cracked": 6,
+        "Faulty": 6
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3667,
+        "Faulty": 0.3667
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Oppo",
+      "model_name": "A14",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 17,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 17,
+        "Intact": 17,
+        "Cracked": 6,
+        "Faulty": 6
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3667,
+        "Faulty": 0.3667
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A02",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 6,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 6,
+        "Intact": 6,
+        "Cracked": 2,
+        "Faulty": 2
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.35,
+        "Faulty": 0.35
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A02",
+      "storage": "32GB",
+      "release_year": null,
+      "price": 6,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 6,
+        "Intact": 6,
+        "Cracked": 2,
+        "Faulty": 2
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.35,
+        "Faulty": 0.35
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A04",
+      "storage": "32GB",
+      "release_year": null,
+      "price": 10,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 10,
+        "Intact": 10,
+        "Cracked": 2,
+        "Faulty": 2
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2121,
+        "Faulty": 0.2121
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A12",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 13,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 13,
+        "Intact": 13,
+        "Cracked": 7,
+        "Faulty": 7
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5333,
+        "Faulty": 0.5333
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A13",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 16,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 16,
+        "Intact": 16,
+        "Cracked": 8,
+        "Faulty": 8
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5088,
+        "Faulty": 0.5088
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A13",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 16,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 16,
+        "Intact": 16,
+        "Cracked": 8,
+        "Faulty": 8
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5088,
+        "Faulty": 0.5088
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A22 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 16,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 16,
+        "Intact": 16,
+        "Cracked": 8,
+        "Faulty": 8
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5088,
+        "Faulty": 0.5088
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A22 (5G)",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 16,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 16,
+        "Intact": 16,
+        "Cracked": 8,
+        "Faulty": 8
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5088,
+        "Faulty": 0.5088
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A23",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 19,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 19,
+        "Intact": 19,
+        "Cracked": 8,
+        "Faulty": 8
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4462,
+        "Faulty": 0.4462
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A23",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 16,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 16,
+        "Intact": 16,
+        "Cracked": 8,
+        "Faulty": 8
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5088,
+        "Faulty": 0.5088
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A30",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 17,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 17,
+        "Intact": 17,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2759,
+        "Faulty": 0.2759
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A30",
+      "storage": "32GB",
+      "release_year": null,
+      "price": 17,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 17,
+        "Intact": 17,
+        "Cracked": 8,
+        "Faulty": 8
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4828,
+        "Faulty": 0.4828
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A31",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 38,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 38,
+        "Intact": 38,
+        "Cracked": 18,
+        "Faulty": 18
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4656,
+        "Faulty": 0.4656
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A32",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 25,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 25,
+        "Intact": 20,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8118,
+        "Cracked": 0.4824,
+        "Faulty": 0.4824
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A32 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 28,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 28,
+        "Intact": 28,
+        "Cracked": 15,
+        "Faulty": 15
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5417,
+        "Faulty": 0.5417
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A32 (5G)",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 28,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 28,
+        "Intact": 28,
+        "Cracked": 15,
+        "Faulty": 15
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5417,
+        "Faulty": 0.5417
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A33 5G",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 34,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 34,
+        "Intact": 29,
+        "Cracked": 17,
+        "Faulty": 14
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.839,
+        "Cracked": 0.4915,
+        "Faulty": 0.4068
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A34 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 59,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 59,
+        "Intact": 59,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2941,
+        "Faulty": 0.2941
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A50",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 19,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 19,
+        "Intact": 19,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2923,
+        "Faulty": 0.2615
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A50",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 19,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 19,
+        "Intact": 19,
+        "Cracked": 7,
+        "Faulty": 7
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3846,
+        "Faulty": 0.3846
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A50 S",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 19,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 19,
+        "Intact": 19,
+        "Cracked": 7,
+        "Faulty": 7
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3846,
+        "Faulty": 0.3846
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A50 S",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 19,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 19,
+        "Intact": 19,
+        "Cracked": 7,
+        "Faulty": 7
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3846,
+        "Faulty": 0.3846
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A51",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 24,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 24,
+        "Intact": 24,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5,
+        "Faulty": 0.5
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A51",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 24,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 24,
+        "Intact": 24,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2317,
+        "Faulty": 0.2073
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A51",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 24,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 24,
+        "Intact": 24,
+        "Cracked": 7,
+        "Faulty": 7
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3049,
+        "Faulty": 0.3049
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A51 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 24,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 24,
+        "Intact": 24,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1951,
+        "Faulty": 0.1951
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A51 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 24,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 24,
+        "Intact": 24,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5,
+        "Faulty": 0.5
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A51 (5G) ULTRA",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 24,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 24,
+        "Intact": 24,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5,
+        "Faulty": 0.5
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A52",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 38,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 38,
+        "Intact": 38,
+        "Cracked": 18,
+        "Faulty": 18
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4656,
+        "Faulty": 0.4656
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A52 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 36,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3306,
+        "Faulty": 0.3306
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A52 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 38,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 38,
+        "Intact": 38,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.313,
+        "Faulty": 0.313
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A52s",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 43,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 43,
+        "Intact": 43,
+        "Cracked": 25,
+        "Faulty": 18
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5839,
+        "Faulty": 0.4094
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A52s",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 43,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 43,
+        "Intact": 43,
+        "Cracked": 25,
+        "Faulty": 18
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5839,
+        "Faulty": 0.4094
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A52s (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 36,
+        "Cracked": 11,
+        "Faulty": 11
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2984,
+        "Faulty": 0.2984
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A52s (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 36,
+        "Cracked": 11,
+        "Faulty": 11
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2984,
+        "Faulty": 0.2984
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A53 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 32,
+        "Cracked": 15,
+        "Faulty": 15
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.888,
+        "Cracked": 0.416,
+        "Faulty": 0.416
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A53 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 32,
+        "Cracked": 15,
+        "Faulty": 15
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.888,
+        "Cracked": 0.416,
+        "Faulty": 0.416
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A54 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 55,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 55,
+        "Intact": 52,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9372,
+        "Cracked": 0.3141,
+        "Faulty": 0.3141
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A54 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 60,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 60,
+        "Intact": 52,
+        "Cracked": 19,
+        "Faulty": 19
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8647,
+        "Cracked": 0.314,
+        "Faulty": 0.314
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A70",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 15,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 15,
+        "Intact": 15,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3019,
+        "Faulty": 0.3019
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A70",
+      "storage": "64GB",
+      "release_year": null,
+      "price": 21,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 21,
+        "Intact": 17,
+        "Cracked": 10,
+        "Faulty": 8
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8056,
+        "Cracked": 0.4722,
+        "Faulty": 0.4028
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A70",
+      "storage": "32GB",
+      "release_year": null,
+      "price": 15,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 15,
+        "Intact": 15,
+        "Cracked": 5,
+        "Faulty": 5
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3019,
+        "Faulty": 0.3019
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A71",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 24,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 24,
+        "Intact": 24,
+        "Cracked": 11,
+        "Faulty": 8
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4578,
+        "Faulty": 0.3494
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A71 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 24,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 24,
+        "Intact": 24,
+        "Cracked": 6,
+        "Faulty": 6
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2651,
+        "Faulty": 0.2651
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A71 (5G) ULTRA",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 29,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 29,
+        "Intact": 24,
+        "Cracked": 10,
+        "Faulty": 8
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8384,
+        "Cracked": 0.3434,
+        "Faulty": 0.2929
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A72",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 71,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 71,
+        "Intact": 60,
+        "Cracked": 19,
+        "Faulty": 19
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8408,
+        "Cracked": 0.2694,
+        "Faulty": 0.2694
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A72",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 63,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 63,
+        "Intact": 63,
+        "Cracked": 25,
+        "Faulty": 18
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3991,
+        "Faulty": 0.2798
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A72 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 33,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 33,
+        "Intact": 33,
+        "Cracked": 11,
+        "Faulty": 11
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3246,
+        "Faulty": 0.3246
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A72 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 39,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 39,
+        "Intact": 33,
+        "Cracked": 11,
+        "Faulty": 11
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8507,
+        "Cracked": 0.2761,
+        "Faulty": 0.2761
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A73(5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 36,
+        "Cracked": 15,
+        "Faulty": 15
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4127,
+        "Faulty": 0.4127
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A73(5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 42,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 42,
+        "Intact": 36,
+        "Cracked": 15,
+        "Faulty": 15
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.875,
+        "Cracked": 0.3681,
+        "Faulty": 0.3611
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy A8",
+      "storage": "32GB",
+      "release_year": 2018,
+      "price": 12,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 12,
+        "Intact": 12,
+        "Cracked": 6,
+        "Faulty": 6
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4878,
+        "Faulty": 0.4878
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Flip 5 (5G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 141,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 141,
+        "Intact": 132,
+        "Cracked": 34,
+        "Faulty": 34
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9344,
+        "Cracked": 0.2418,
+        "Faulty": 0.2418
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Flip 5 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 141,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 141,
+        "Intact": 118,
+        "Cracked": 33,
+        "Faulty": 33
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.834,
+        "Cracked": 0.2336,
+        "Faulty": 0.2336
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Flip 5 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 141,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 141,
+        "Intact": 118,
+        "Cracked": 33,
+        "Faulty": 33
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.834,
+        "Cracked": 0.2336,
+        "Faulty": 0.2336
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Fold 5 (5G)",
+      "storage": "1TB",
+      "release_year": null,
+      "price": 214,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 214,
+        "Intact": 214,
+        "Cracked": 86,
+        "Faulty": 86
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4005,
+        "Faulty": 0.4005
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Fold 5 (5G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 203,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 203,
+        "Intact": 203,
+        "Cracked": 75,
+        "Faulty": 75
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3684,
+        "Faulty": 0.3684
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Fold 5 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 166,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 166,
+        "Intact": 139,
+        "Cracked": 83,
+        "Faulty": 64
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8333,
+        "Cracked": 0.5,
+        "Faulty": 0.3854
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Flip4 5G",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 106,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 106,
+        "Intact": 106,
+        "Cracked": 14,
+        "Faulty": 14
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1339,
+        "Faulty": 0.1339
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy M",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 24,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 24,
+        "Intact": 24,
+        "Cracked": 2,
+        "Faulty": 2
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.0976,
+        "Faulty": 0.0976
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy M52",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 43,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 43,
+        "Intact": 43,
+        "Cracked": 25,
+        "Faulty": 18
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5839,
+        "Faulty": 0.4094
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 10",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 55,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 55,
+        "Intact": 47,
+        "Cracked": 14,
+        "Faulty": 14
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8438,
+        "Cracked": 0.2552,
+        "Faulty": 0.2552
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 10 + 5G",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 47,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 47,
+        "Intact": 42,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9074,
+        "Cracked": 0.2531,
+        "Faulty": 0.2531
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 10 Lite",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 31,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 31,
+        "Intact": 31,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3832,
+        "Faulty": 0.3832
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 10 Plus",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 69,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 69,
+        "Intact": 61,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8792,
+        "Cracked": 0.2417,
+        "Faulty": 0.2417
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 10 Plus",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 69,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 69,
+        "Intact": 61,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8792,
+        "Cracked": 0.2417,
+        "Faulty": 0.2417
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 10 Plus + 5G",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 49,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 49,
+        "Intact": 42,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8596,
+        "Cracked": 0.3392,
+        "Faulty": 0.3392
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 10 Plus + 5G",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 49,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 49,
+        "Intact": 42,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8596,
+        "Cracked": 0.3392,
+        "Faulty": 0.3392
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 20",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 73,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 73,
+        "Intact": 73,
+        "Cracked": 26,
+        "Faulty": 26
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3532,
+        "Faulty": 0.3532
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 20 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 89,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 89,
+        "Intact": 89,
+        "Cracked": 24,
+        "Faulty": 19
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2654,
+        "Faulty": 0.2104
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 20 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 89,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 89,
+        "Intact": 89,
+        "Cracked": 24,
+        "Faulty": 19
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2654,
+        "Faulty": 0.2104
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 20 Ultra (4G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 115,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 115,
+        "Intact": 99,
+        "Cracked": 36,
+        "Faulty": 36
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8593,
+        "Cracked": 0.309,
+        "Faulty": 0.309
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 20 Ultra (4G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 114,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 114,
+        "Intact": 102,
+        "Cracked": 31,
+        "Faulty": 31
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8962,
+        "Cracked": 0.2709,
+        "Faulty": 0.2709
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 20 Ultra (5G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 115,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 115,
+        "Intact": 99,
+        "Cracked": 36,
+        "Faulty": 36
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8593,
+        "Cracked": 0.309,
+        "Faulty": 0.309
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 20 Ultra (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 115,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 115,
+        "Intact": 106,
+        "Cracked": 36,
+        "Faulty": 36
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9196,
+        "Cracked": 0.309,
+        "Faulty": 0.309
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 20 Ultra (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 106,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 106,
+        "Intact": 99,
+        "Cracked": 36,
+        "Faulty": 36
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9344,
+        "Cracked": 0.3361,
+        "Faulty": 0.3361
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 8",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 24,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 24,
+        "Intact": 24,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5,
+        "Faulty": 0.5
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 9",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 86,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 86,
+        "Intact": 86,
+        "Cracked": 24,
+        "Faulty": 21
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.277,
+        "Faulty": 0.25
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Note 9",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 86,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 86,
+        "Intact": 86,
+        "Cracked": 24,
+        "Faulty": 21
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.277,
+        "Faulty": 0.25
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S10",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 28,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 28,
+        "Intact": 21,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7449,
+        "Cracked": 0.3367,
+        "Faulty": 0.3367
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S10",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 36,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 36,
+        "Intact": 31,
+        "Cracked": 15,
+        "Faulty": 15
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.848,
+        "Cracked": 0.424,
+        "Faulty": 0.424
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S10 (5G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 26,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 26,
+        "Intact": 23,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8764,
+        "Cracked": 0.4045,
+        "Faulty": 0.4045
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S10 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 28,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 28,
+        "Intact": 24,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8367,
+        "Cracked": 0.4184,
+        "Faulty": 0.4184
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S10 E",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 25,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 25,
+        "Intact": 19,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7647,
+        "Cracked": 0.3882,
+        "Faulty": 0.3882
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S10 E",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 25,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 25,
+        "Intact": 19,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7647,
+        "Cracked": 0.3882,
+        "Faulty": 0.3882
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S10 Plus",
+      "storage": "1TB",
+      "release_year": null,
+      "price": 48,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 48,
+        "Intact": 34,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7066,
+        "Cracked": 0.3473,
+        "Faulty": 0.3473
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S10 Plus",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 48,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 48,
+        "Intact": 34,
+        "Cracked": 17,
+        "Faulty": 17
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7066,
+        "Cracked": 0.3473,
+        "Faulty": 0.3473
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S10 Plus",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 48,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 48,
+        "Intact": 34,
+        "Cracked": 20,
+        "Faulty": 20
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7066,
+        "Cracked": 0.4132,
+        "Faulty": 0.4132
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S10 Plus",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 61,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 61,
+        "Intact": 42,
+        "Cracked": 20,
+        "Faulty": 20
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.6967,
+        "Cracked": 0.327,
+        "Faulty": 0.327
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 56,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 56,
+        "Intact": 56,
+        "Cracked": 19,
+        "Faulty": 14
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3333,
+        "Faulty": 0.2513
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 57,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 57,
+        "Intact": 57,
+        "Cracked": 26,
+        "Faulty": 26
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4518,
+        "Faulty": 0.4518
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 57,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 57,
+        "Intact": 57,
+        "Cracked": 26,
+        "Faulty": 26
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4518,
+        "Faulty": 0.4518
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20 Plus",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 64,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 64,
+        "Intact": 64,
+        "Cracked": 24,
+        "Faulty": 19
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3694,
+        "Faulty": 0.2928
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20 Plus (5G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 64,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 64,
+        "Intact": 64,
+        "Cracked": 24,
+        "Faulty": 19
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3694,
+        "Faulty": 0.2928
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20 Plus (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 59,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 59,
+        "Intact": 59,
+        "Cracked": 31,
+        "Faulty": 31
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5196,
+        "Faulty": 0.5196
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20 Plus (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 59,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 59,
+        "Intact": 59,
+        "Cracked": 31,
+        "Faulty": 31
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.5196,
+        "Faulty": 0.5196
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20 Ultra",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 86,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 86,
+        "Intact": 86,
+        "Cracked": 24,
+        "Faulty": 24
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.277,
+        "Faulty": 0.277
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20 Ultra",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 86,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 86,
+        "Intact": 86,
+        "Cracked": 24,
+        "Faulty": 24
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.277,
+        "Faulty": 0.277
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20 Ultra",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 86,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 86,
+        "Intact": 86,
+        "Cracked": 24,
+        "Faulty": 21
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.277,
+        "Faulty": 0.2466
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20 Ultra (5G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 71,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 71,
+        "Intact": 71,
+        "Cracked": 27,
+        "Faulty": 27
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.378,
+        "Faulty": 0.378
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20 Ultra (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 71,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 71,
+        "Intact": 71,
+        "Cracked": 27,
+        "Faulty": 27
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.378,
+        "Faulty": 0.378
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S20 Ultra (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 71,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 71,
+        "Intact": 71,
+        "Cracked": 27,
+        "Faulty": 27
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.378,
+        "Faulty": 0.378
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S21 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 68,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 68,
+        "Intact": 68,
+        "Cracked": 24,
+        "Faulty": 24
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.346,
+        "Faulty": 0.346
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S21 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 68,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 68,
+        "Intact": 68,
+        "Cracked": 24,
+        "Faulty": 24
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.346,
+        "Faulty": 0.346
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S21 FE (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 61,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 61,
+        "Intact": 61,
+        "Cracked": 24,
+        "Faulty": 24
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3905,
+        "Faulty": 0.3905
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S21 FE (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 61,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 61,
+        "Intact": 61,
+        "Cracked": 24,
+        "Faulty": 24
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3905,
+        "Faulty": 0.3905
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S21 Plus (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 84,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 84,
+        "Intact": 84,
+        "Cracked": 41,
+        "Faulty": 41
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4863,
+        "Faulty": 0.4863
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S21 Plus (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 84,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 84,
+        "Intact": 84,
+        "Cracked": 41,
+        "Faulty": 41
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4863,
+        "Faulty": 0.4863
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S21 Ultra (5G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 120,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 120,
+        "Intact": 120,
+        "Cracked": 67,
+        "Faulty": 67
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.559,
+        "Faulty": 0.559
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S21 Ultra (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 139,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 139,
+        "Intact": 113,
+        "Cracked": 54,
+        "Faulty": 54
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8146,
+        "Cracked": 0.3896,
+        "Faulty": 0.3896
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S21 Ultra (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 113,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 113,
+        "Intact": 113,
+        "Cracked": 54,
+        "Faulty": 54
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4783,
+        "Faulty": 0.4783
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S22",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 88,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 88,
+        "Intact": 88,
+        "Cracked": 44,
+        "Faulty": 31
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4951,
+        "Faulty": 0.3508
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S22",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 88,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 88,
+        "Intact": 88,
+        "Cracked": 44,
+        "Faulty": 31
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4951,
+        "Faulty": 0.3508
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S22 Plus",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 117,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 117,
+        "Intact": 117,
+        "Cracked": 53,
+        "Faulty": 53
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4507,
+        "Faulty": 0.4507
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S22 Plus",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 117,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 117,
+        "Intact": 117,
+        "Cracked": 53,
+        "Faulty": 53
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4507,
+        "Faulty": 0.4507
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S22 Ultra",
+      "storage": "1TB",
+      "release_year": null,
+      "price": 189,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 189,
+        "Intact": 189,
+        "Cracked": 74,
+        "Faulty": 74
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3908,
+        "Faulty": 0.3908
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S22 Ultra",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 189,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 189,
+        "Intact": 189,
+        "Cracked": 76,
+        "Faulty": 76
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4031,
+        "Faulty": 0.4031
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S22 Ultra",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 186,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 186,
+        "Intact": 186,
+        "Cracked": 76,
+        "Faulty": 76
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.4099,
+        "Faulty": 0.4099
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S22 Ultra",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 190,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 190,
+        "Intact": 186,
+        "Cracked": 76,
+        "Faulty": 76
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9772,
+        "Cracked": 0.4006,
+        "Faulty": 0.4006
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S23",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 154,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 154,
+        "Intact": 136,
+        "Cracked": 51,
+        "Faulty": 51
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8856,
+        "Cracked": 0.3283,
+        "Faulty": 0.3283
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S23",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 147,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 147,
+        "Intact": 134,
+        "Cracked": 58,
+        "Faulty": 58
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9116,
+        "Cracked": 0.3929,
+        "Faulty": 0.3929
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S23 FE",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 119,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 119,
+        "Intact": 102,
+        "Cracked": 51,
+        "Faulty": 51
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.8613,
+        "Cracked": 0.4258,
+        "Faulty": 0.4258
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S23 FE",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 118,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 118,
+        "Intact": 94,
+        "Cracked": 36,
+        "Faulty": 36
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.7985,
+        "Cracked": 0.3022,
+        "Faulty": 0.3022
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S23 Plus",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 170,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 170,
+        "Intact": 161,
+        "Cracked": 74,
+        "Faulty": 74
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9474,
+        "Cracked": 0.4346,
+        "Faulty": 0.4346
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S23 Plus",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 170,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 170,
+        "Intact": 161,
+        "Cracked": 74,
+        "Faulty": 74
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9474,
+        "Cracked": 0.4346,
+        "Faulty": 0.4346
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S23 Ultra",
+      "storage": "1TB",
+      "release_year": null,
+      "price": 279,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 279,
+        "Intact": 257,
+        "Cracked": 101,
+        "Faulty": 101
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9243,
+        "Cracked": 0.362,
+        "Faulty": 0.362
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S23 Ultra",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 279,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 279,
+        "Intact": 257,
+        "Cracked": 101,
+        "Faulty": 101
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9243,
+        "Cracked": 0.362,
+        "Faulty": 0.362
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S23 Ultra",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 264,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 264,
+        "Intact": 248,
+        "Cracked": 99,
+        "Faulty": 99
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9377,
+        "Cracked": 0.3738,
+        "Faulty": 0.3738
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S24",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 281,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 281,
+        "Intact": 260,
+        "Cracked": 82,
+        "Faulty": 71
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.923,
+        "Cracked": 0.2926,
+        "Faulty": 0.2515
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S24",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 248,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 248,
+        "Intact": 236,
+        "Cracked": 82,
+        "Faulty": 71
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9534,
+        "Cracked": 0.3322,
+        "Faulty": 0.2855
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S24",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 236,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 236,
+        "Intact": 218,
+        "Cracked": 82,
+        "Faulty": 71
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9205,
+        "Cracked": 0.3484,
+        "Faulty": 0.2995
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S24 Plus",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 300,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 300,
+        "Intact": 288,
+        "Cracked": 94,
+        "Faulty": 82
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9595,
+        "Cracked": 0.3131,
+        "Faulty": 0.2746
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S24 Plus",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 288,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 288,
+        "Intact": 274,
+        "Cracked": 94,
+        "Faulty": 82
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9518,
+        "Cracked": 0.3263,
+        "Faulty": 0.2861
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S24 Ultra",
+      "storage": "1TB",
+      "release_year": null,
+      "price": 399,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 399,
+        "Intact": 399,
+        "Cracked": 120,
+        "Faulty": 113
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3009,
+        "Faulty": 0.2835
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S24 Ultra",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 366,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 366,
+        "Intact": 366,
+        "Cracked": 120,
+        "Faulty": 107
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3281,
+        "Faulty": 0.2933
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S24 Ultra",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 337,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 337,
+        "Intact": 337,
+        "Cracked": 118,
+        "Faulty": 96
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.3488,
+        "Faulty": 0.2853
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S25",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 317,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 317,
+        "Intact": 297,
+        "Cracked": 110,
+        "Faulty": 89
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9372,
+        "Cracked": 0.3479,
+        "Faulty": 0.2814
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S25",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 309,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 309,
+        "Intact": 285,
+        "Cracked": 110,
+        "Faulty": 80
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9232,
+        "Cracked": 0.3577,
+        "Faulty": 0.2584
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S25",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 280,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 280,
+        "Intact": 257,
+        "Cracked": 110,
+        "Faulty": 80
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9174,
+        "Cracked": 0.3946,
+        "Faulty": 0.2851
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S25 Plus",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 344,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 344,
+        "Intact": 321,
+        "Cracked": 110,
+        "Faulty": 89
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.932,
+        "Cracked": 0.3205,
+        "Faulty": 0.2592
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S25 Plus",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 330,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 330,
+        "Intact": 307,
+        "Cracked": 110,
+        "Faulty": 89
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9291,
+        "Cracked": 0.3342,
+        "Faulty": 0.2703
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S25 Ultra",
+      "storage": "1TB",
+      "release_year": null,
+      "price": 563,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 563,
+        "Intact": 518,
+        "Cracked": 162,
+        "Faulty": 155
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9205,
+        "Cracked": 0.2884,
+        "Faulty": 0.2755
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S25 Ultra",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 490,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 490,
+        "Intact": 467,
+        "Cracked": 162,
+        "Faulty": 155
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9522,
+        "Cracked": 0.3314,
+        "Faulty": 0.3166
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy S25 Ultra",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 461,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 461,
+        "Intact": 438,
+        "Cracked": 160,
+        "Faulty": 135
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 0.9492,
+        "Cracked": 0.3477,
+        "Faulty": 0.2932
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Flip 3 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 75,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 75,
+        "Intact": 75,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1544,
+        "Faulty": 0.1544
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Flip 3 (5G)",
+      "storage": "128GB",
+      "release_year": null,
+      "price": 75,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 75,
+        "Intact": 75,
+        "Cracked": 12,
+        "Faulty": 12
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1544,
+        "Faulty": 0.1544
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Flip 4 (5G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 75,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 75,
+        "Intact": 75,
+        "Cracked": 21,
+        "Faulty": 21
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2857,
+        "Faulty": 0.2857
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Flip 4 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 75,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 75,
+        "Intact": 75,
+        "Cracked": 21,
+        "Faulty": 21
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2857,
+        "Faulty": 0.2857
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Fold 2 (5G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 64,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 64,
+        "Intact": 64,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1622,
+        "Faulty": 0.1622
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Fold 2 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 64,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 64,
+        "Intact": 64,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1622,
+        "Faulty": 0.1622
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Fold 2 LTE",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 64,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 64,
+        "Intact": 64,
+        "Cracked": 10,
+        "Faulty": 10
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1622,
+        "Faulty": 0.1622
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Fold 3 (5G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 107,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 107,
+        "Intact": 107,
+        "Cracked": 21,
+        "Faulty": 21
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2,
+        "Faulty": 0.2
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Fold 3 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 107,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 107,
+        "Intact": 107,
+        "Cracked": 21,
+        "Faulty": 21
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2,
+        "Faulty": 0.2
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Fold 4 (5G)",
+      "storage": "1TB",
+      "release_year": null,
+      "price": 171,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 171,
+        "Intact": 171,
+        "Cracked": 21,
+        "Faulty": 21
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.1252,
+        "Faulty": 0.1252
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Fold 4 (5G)",
+      "storage": "512GB",
+      "release_year": null,
+      "price": 149,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 149,
+        "Intact": 149,
+        "Cracked": 32,
+        "Faulty": 32
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2147,
+        "Faulty": 0.2147
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model_name": "Galaxy Z Fold 4 (5G)",
+      "storage": "256GB",
+      "release_year": null,
+      "price": 139,
+      "currency": "EUR",
+      "condition": null,
+      "condition_prices": {
+        "Like New": 139,
+        "Intact": 139,
+        "Cracked": 32,
+        "Faulty": 32
+      },
+      "condition_multipliers": {
+        "Like New": 1.0,
+        "Intact": 1.0,
+        "Cracked": 0.2308,
+        "Faulty": 0.2308
+      },
+      "source": "ksp",
+      "source_url": "https://ksp.co.il/snif/TradeIn/INNER_new/api/public/devices"
+    }
+  ]
+}

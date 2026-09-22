@@ -1,0 +1,5 @@
+condition,price_multiplier,description
+Like New,1.00,"No visible wear, screen and body flawless, fully functional."
+Intact,0.85,"Light scratches or scuffs, no cracks, fully functional."
+Cracked,0.60,"Cracked screen or back glass, device still powers on and works."
+Faulty,0.20,"Does not power on, or a major fault (battery, board, water damage)."
