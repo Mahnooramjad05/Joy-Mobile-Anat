@@ -330,3 +330,49 @@ class TestIdempotenceAndSpeed:
             client.post("/api/device-price", json=PRO_MAX_256)
         average_ms = (time.perf_counter() - started) / 20 * 1000
         assert average_ms < 100, f"average {average_ms:.1f}ms"
+
+
+class TestContainerCredentials:
+    """A container usually receives the service account key as an environment
+    variable rather than a mounted file, so both routes have to work."""
+
+    KEY = ('{"type":"service_account","project_id":"p",'
+           '"client_email":"bot@p.iam.gserviceaccount.com","private_key":"x"}')
+
+    def test_none_when_unset(self, monkeypatch):
+        from api import settings
+        monkeypatch.delenv("GOOGLE_CREDENTIALS_JSON", raising=False)
+        assert settings.credentials_json() is None
+
+    def test_blank_is_treated_as_unset(self, monkeypatch):
+        from api import settings
+        monkeypatch.setenv("GOOGLE_CREDENTIALS_JSON", "   ")
+        assert settings.credentials_json() is None
+
+    def test_parsed_when_set(self, monkeypatch):
+        from api import settings
+        monkeypatch.setenv("GOOGLE_CREDENTIALS_JSON", self.KEY)
+        info = settings.credentials_json()
+        assert info["client_email"] == "bot@p.iam.gserviceaccount.com"
+
+    def test_malformed_json_is_explained(self, monkeypatch):
+        from api import settings
+        monkeypatch.setenv("GOOGLE_CREDENTIALS_JSON", "{not json")
+        with pytest.raises(ValueError) as err:
+            settings.credentials_json()
+        assert "not valid JSON" in str(err.value)
+
+    def test_wrong_shape_is_explained(self, monkeypatch):
+        from api import settings
+        monkeypatch.setenv("GOOGLE_CREDENTIALS_JSON", '{"hello":"world"}')
+        with pytest.raises(ValueError) as err:
+            settings.credentials_json()
+        assert "client_email" in str(err.value)
+
+    def test_a_bad_key_surfaces_as_a_500_not_a_crash(self, client, monkeypatch):
+        monkeypatch.setenv("GOOGLE_CREDENTIALS_JSON", "{not json")
+        monkeypatch.setenv("SPREADSHEET_ID", "anything")
+        sheets_query.reset_cache()
+        response = client.post("/api/device-price", json=PRO_MAX_256)
+        assert response.status_code == 500
+        assert response.get_json() == {"error": "Unable to fetch pricing", "status": 500}

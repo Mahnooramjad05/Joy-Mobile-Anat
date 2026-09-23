@@ -209,6 +209,76 @@ Python `requests`, Postman and Heyy all send proper UTF-8 and are unaffected.
 
 ---
 
+## Deploying with Docker (Coolify)
+
+```bash
+# Build from the REPOSITORY ROOT, not from api/
+docker build -f api/Dockerfile -t joy-mobile-api .
+
+docker run -p 5000:5000 \
+  -e SPREADSHEET_ID="1KdcjtNqLkmJo4XYiGM2oX5lo9NjqfDKpGc8HCteFmGk" \
+  -e GOOGLE_CREDENTIALS_JSON="$(cat google-credentials.json)" \
+  joy-mobile-api
+```
+
+**The build context is the repository root even though the Dockerfile lives in
+`api/`.** The `api` package uses relative imports, so it has to be importable as
+`api.app` with the root on the path, and `requirements.txt` and `wsgi.py` are at
+the root too. A context of `api/` cannot see any of them.
+
+### Coolify settings
+
+| Setting | Value |
+| --- | --- |
+| Build Pack | Dockerfile |
+| Dockerfile Location | `/api/Dockerfile` |
+| Base Directory | `/` |
+| Port | `5000` |
+| Health Check Path | `/health` |
+
+### Environment variables
+
+| Variable | Required | Notes |
+| --- | --- | --- |
+| `SPREADSHEET_ID` | yes | The long id from the sheet's URL |
+| `GOOGLE_CREDENTIALS_JSON` | yes | The **entire contents** of the service account key file, pasted as one value |
+| `FLASK_ENV` | no | `production` by default |
+| `PORT` | no | `5000` by default |
+
+`GOOGLE_CREDENTIALS_JSON` exists because a container rarely has a good place to
+mount a key file, and the key is deliberately not in the repository. If you would
+rather mount a file, set `GOOGLE_CREDENTIALS_PATH` to wherever you mounted it and
+leave `GOOGLE_CREDENTIALS_JSON` unset — the file path is the fallback.
+
+Either way, share the sheet with that service account. Read access is enough for
+the API; the sync is what needs Editor.
+
+### What is in the image
+
+Only `api/`, `wsgi.py`, `requirements.txt` and `scraper/config.py`. Not the
+tests, tools, docs, fixtures, captures or the sync's scraper code — the API only
+reads the sheet. `.dockerignore` lives at the repository root, because Docker
+reads it from the build context and not from beside the Dockerfile; one at
+`api/.dockerignore` would never be read.
+
+The image runs as a non-root user and contains no secrets.
+
+### gunicorn, not `flask run`
+
+The `CMD` is gunicorn with two workers. Flask's built-in server is single
+threaded and its own documentation says not to use it in production; `wsgi.py`
+also warms the device cache at import, so the first customer request is not the
+slow one. Each worker keeps its own 30-minute cache, which is fine — they are
+read-only.
+
+The Dockerfile sets `FLASK_APP=api.app`, so swapping the last line for
+
+```dockerfile
+CMD ["python", "-m", "flask", "run", "--host=0.0.0.0", "--port=5000"]
+```
+
+works if you want the development server instead.
+
 ## Deploying to Hostinger
 
 Hostinger's Python hosting runs WSGI apps through Passenger, and VPS plans run
@@ -220,8 +290,7 @@ git clone <repo> && cd <repo>
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# Upload google-credentials.json separately -- it is gitignored, deliberately.
-# Then:
+# Supply credentials, then:
 cp .env.example .env        # edit if the sheet id differs
 gunicorn --bind 127.0.0.1:5000 --workers 2 --timeout 30 wsgi:application
 ```
@@ -232,12 +301,11 @@ at `application`.
 
 **Checklist before it takes traffic**
 
-- [ ] `google-credentials.json` on the server, readable only by the app user
-      (`chmod 600`), and **not** in version control
-- [ ] The sheet shared with the service account as at least Viewer
+- [ ] Credentials supplied, by env var or mounted file, readable only by the app user
+- [ ] The sheet shared with the service account
 - [ ] `GET /health` returns `devices.loaded: true`
 - [ ] Outbound HTTPS allowed to `sheets.googleapis.com`
-- [ ] Process supervised (systemd or Passenger) so it restarts on failure
+- [ ] Process supervised so it restarts on failure
 - [ ] The API reachable only by the Heyy bot, or behind an API key — see below
 
 ### Security

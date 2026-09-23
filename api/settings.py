@@ -6,6 +6,7 @@ so the API and the sync cannot drift onto different spreadsheets.
 
 from __future__ import annotations
 
+import json
 import os
 import sys
 
@@ -36,6 +37,32 @@ def spreadsheet_id():
         return value
     config = _scraper_config()
     return getattr(config, "SPREADSHEET_ID", "") if config else ""
+
+
+def credentials_json():
+    """Service account credentials supplied inline, as a JSON string.
+
+    Containers rarely have a convenient place to mount a key file, so most
+    platforms -- Coolify included -- pass secrets as environment variables.
+    Set GOOGLE_CREDENTIALS_JSON to the whole contents of the key file and no
+    file needs to exist. Returns the parsed dict, or None if unset.
+    """
+    raw = os.environ.get("GOOGLE_CREDENTIALS_JSON", "").strip()
+    if not raw:
+        return None
+    try:
+        info = json.loads(raw)
+    except ValueError as err:
+        raise ValueError(
+            f"GOOGLE_CREDENTIALS_JSON is set but is not valid JSON ({err}). "
+            f"It should be the entire contents of the service account key file."
+        ) from err
+    if not isinstance(info, dict) or "client_email" not in info:
+        raise ValueError(
+            "GOOGLE_CREDENTIALS_JSON does not look like a service account key "
+            "(no client_email)."
+        )
+    return info
 
 
 def credentials_path():

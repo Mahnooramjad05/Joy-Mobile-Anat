@@ -1,0 +1,67 @@
+# Docker reads .dockerignore from the build context root, not from beside the
+# Dockerfile. The context for api/Dockerfile is the repository root, so this
+# file lives here -- one at api/.dockerignore would never be read.
+#
+# Two jobs: keep secrets out of the build, and keep the context small. Without
+# it, .venv and the 5 MB HAR capture are uploaded to the daemon on every build.
+
+# --- Secrets. These must never reach an image. -----------------------------
+# api/Dockerfile copies named paths rather than `COPY . .`, so nothing here
+# would be picked up anyway -- but a build should not be one edit away from
+# baking a private key into a layer.
+credentials.json
+google-credentials.json
+*-credentials.json
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# --- Captured traffic, which carries session cookies and tokens ------------
+*.har
+ksp_real.html*
+captures/
+
+# --- Local state -----------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+logs/
+backups/
+
+# --- Version control and CI ------------------------------------------------
+.git/
+.gitignore
+.github/
+
+# --- Not needed at runtime -------------------------------------------------
+# The API reads the Google Sheet; it does not scrape, generate workbooks or
+# run the test suite. Only api/, wsgi.py, requirements.txt and
+# scraper/config.py are copied into the image.
+tests/
+scraper/tests/
+scraper/fixtures/
+tools/
+data/
+docs/
+apps-script/
+*.md
+*.xlsx
+*.csv
+
+# --- Build files themselves ------------------------------------------------
+# Read by the builder via -f, so they do not need to be in the context, and
+# there is no reason to ship them inside the image.
+api/Dockerfile
+.dockerignore
+
+# --- Editor / OS -----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

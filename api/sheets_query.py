@@ -101,18 +101,29 @@ def _open_worksheet():
 
     from . import settings
 
-    credentials_path = settings.credentials_path()
-    spreadsheet_id = settings.spreadsheet_id()
+    scopes = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 
+    spreadsheet_id = settings.spreadsheet_id()
     if not spreadsheet_id:
         raise SheetUnavailable("No spreadsheet id configured (SPREADSHEET_ID).")
-    if not os.path.exists(credentials_path):
-        raise SheetUnavailable(f"Service account key not found at {credentials_path}.")
 
-    creds = Credentials.from_service_account_file(
-        credentials_path,
-        scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"],
-    )
+    # In a container the key usually arrives as an environment variable rather
+    # than a file, so that is tried first.
+    try:
+        inline = settings.credentials_json()
+    except ValueError as err:
+        raise SheetUnavailable(str(err)) from err
+
+    if inline:
+        creds = Credentials.from_service_account_info(inline, scopes=scopes)
+    else:
+        credentials_path = settings.credentials_path()
+        if not os.path.exists(credentials_path):
+            raise SheetUnavailable(
+                f"No credentials: GOOGLE_CREDENTIALS_JSON is unset and no key "
+                f"file exists at {credentials_path}."
+            )
+        creds = Credentials.from_service_account_file(credentials_path, scopes=scopes)
     spreadsheet = gspread.authorize(creds).open_by_key(spreadsheet_id)
     return spreadsheet.worksheet(DEVICES_TAB)
 

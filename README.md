@@ -64,6 +64,8 @@ api/conditions.py             Hebrew <-> English condition mapping
 api/sheets_query.py           Device lookups, cached 30 min
 api/settings.py               Env / .env configuration
 wsgi.py                       Production entry point (gunicorn / Passenger)
+api/Dockerfile                Container image (build from the repo root)
+.dockerignore                 Build context exclusions, incl. every secret
 tests/test_api.py             API tests, all offline
 apps-script/Code.gs           Alternative serverless read API (EUR, English only)
 docs/sheet-setup.md           Build the sheet, maintain it, add devices
@@ -122,7 +124,7 @@ cp .env.example .env
 python -m api.app                                            # dev, port 5000
 gunicorn --bind 0.0.0.0:5000 --workers 2 wsgi:application    # production
 
-python -m pytest tests scraper/tests -q   # 194 tests, offline
+python -m pytest tests scraper/tests -q   # 200 tests, offline
 ```
 
 ```bash
@@ -132,6 +134,18 @@ curl -X POST http://localhost:5000/api/device-price      -H "Content-Type: appli
 Returns all four conditions in shekels with Hebrew names, in well under a
 millisecond once warm. Full reference and Hostinger deployment notes:
 [docs/pricing-api.md](docs/pricing-api.md).
+
+Or in a container:
+
+```bash
+docker build -f api/Dockerfile -t joy-mobile-api .   # build from the repo root
+docker run -p 5000:5000 \
+  -e SPREADSHEET_ID=... -e GOOGLE_CREDENTIALS_JSON="$(cat google-credentials.json)" \
+  joy-mobile-api
+```
+
+Coolify settings and the full environment reference are in
+[docs/pricing-api.md](docs/pricing-api.md#deploying-with-docker-coolify).
 
 **Before it faces the internet** it needs an API key or an IP allowlist — there
 is no authentication on the endpoint yet.
