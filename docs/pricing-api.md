@@ -245,6 +245,28 @@ beside them means no `-f` flag and nothing to override in Coolify.
 | `FLASK_ENV` | no | `production` by default |
 | `PORT` | no | `5000` by default |
 
+All of these are **runtime-only** in Coolify. Do not tick "Available at
+Buildtime": Coolify turns build-time variables into Dockerfile `ARG`s, and the
+credentials JSON breaks the build when it is passed that way.
+
+### The nightly sync runs in this same container
+
+The image also carries `scraper/`, so Coolify's Scheduled Tasks can run the price
+sync inside the running API container — no second service to deploy and no second
+copy of the key. It needs a few more variables (`SMTP_*`, `NOTIFY_*`, and
+`KSP_PROXY_URL` if the server cannot reach ksp.co.il), all runtime-only as well.
+
+| Scheduled Task | Value |
+| --- | --- |
+| Name | `ksp-price-sync-03` and `ksp-price-sync-04` |
+| Command | `python -m scraper.sync --only-at-hour 6 --tz Asia/Jerusalem` |
+| Frequency | `0 3 * * *` and `0 4 * * *` |
+| Container | the API container |
+
+Two entries because Coolify has no per-task timezone and Israel changes offset
+twice a year; the command itself works out which one should do the work. Full
+reasoning in [scraper.md](scraper.md#scheduling).
+
 `GOOGLE_CREDENTIALS_JSON` exists because a container rarely has a good place to
 mount a key file, and the key is deliberately not in the repository. If you would
 rather mount a file, set `GOOGLE_CREDENTIALS_PATH` to wherever you mounted it and

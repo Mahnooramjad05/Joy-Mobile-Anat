@@ -255,12 +255,13 @@ class SheetWriter:
     def connect(self):
         try:
             import gspread
-            from google.oauth2.service_account import Credentials
         except ImportError as err:
             raise SheetError(
                 "gspread and google-auth are required to write the sheet. "
                 "Install them with: pip install -r requirements.txt"
             ) from err
+
+        import credentials as credentials_module
 
         if not self.spreadsheet_id:
             raise SheetError(
@@ -269,16 +270,12 @@ class SheetWriter:
             )
 
         try:
-            creds = Credentials.from_service_account_file(
-                self.credentials_path,
-                scopes=["https://www.googleapis.com/auth/spreadsheets"],
-            )
+            creds = credentials_module.load(self.credentials_path)
+        except credentials_module.CredentialsError as err:
+            raise SheetError(f"{err} See docs/scraper.md, 'Google Sheets credentials'.") from err
+
+        try:
             self._spreadsheet = gspread.authorize(creds).open_by_key(self.spreadsheet_id)
-        except FileNotFoundError as err:
-            raise SheetError(
-                f"Service account key not found at {self.credentials_path}. "
-                f"See docs/scraper.md, 'Google Sheets credentials'."
-            ) from err
         except Exception as err:
             raise SheetError(
                 f"Could not open spreadsheet {self.spreadsheet_id}: {err}. "

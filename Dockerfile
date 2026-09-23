@@ -1,6 +1,10 @@
-# Device trade-in pricing API.
+# Device trade-in pricing API, and the nightly price sync.
 #
 #     docker build -t joy-mobile-api .
+#
+# One image serves both. The container runs the API; Coolify's Scheduled Tasks
+# run `python -m scraper.sync ...` inside that same running container, so the
+# sync needs no image, no server and no credentials of its own.
 #
 # This lives at the repository root because the build context has to be the
 # root: the api package uses relative imports (`from . import settings`), so it
@@ -19,6 +23,13 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PIP_NO_CACHE_DIR=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1
 
+# tzdata: the sync decides whether it is the 06:00 hour in Israel, and zoneinfo
+# needs the system timezone database to answer that. python:3.11-slim ships
+# without one, so the DST guard cannot work unless this is installed.
+RUN apt-get update \
+    && apt-get install --no-install-recommends -y tzdata \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
 # Dependencies first, in their own layer: this only re-runs when
@@ -26,11 +37,12 @@ WORKDIR /app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-# The application. scraper/config.py comes along because api/settings.py falls
-# back to it when SPREADSHEET_ID is not set in the environment.
+# The API, and the sync that Coolify's scheduled task runs in this container.
+# .dockerignore keeps scraper/tests and scraper/fixtures out -- the sync needs
+# neither at runtime, and the fixtures are 270 KB of captured catalogue.
 COPY api/ ./api/
+COPY scraper/ ./scraper/
 COPY wsgi.py ./
-COPY scraper/config.py ./scraper/config.py
 
 # Run as a non-root user. The image holds no secrets -- credentials arrive at
 # runtime through GOOGLE_CREDENTIALS_JSON -- but a web process should not be

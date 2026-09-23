@@ -17,5 +17,10 @@ Flask>=3.0
 python-dotenv>=1.0
 gunicorn>=21.2 ; sys_platform != "win32"    # production server; not needed on Windows
 
+# Windows has no system timezone database, so zoneinfo needs this to resolve
+# Asia/Jerusalem for the sync's --only-at-hour guard. Linux containers get the
+# system tzdata package from the Dockerfile instead.
+tzdata ; sys_platform == "win32"
+
 # Tests
 pytest>=8.0

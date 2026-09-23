@@ -15,7 +15,7 @@ KSP catalogue API ──(Phase 2 sync)──▶ Google Sheet ──(Phase 3 REST
 | Phase | What it does | Status |
 | --- | --- | --- |
 | 1 | Google Sheet holding devices, base prices and condition multipliers | Done — populated from KSP — [sheet-setup.md](docs/sheet-setup.md) |
-| 2 | Sync that pulls KSP prices into the sheet | Done — 321 devices live in the sheet — [scraper.md](docs/scraper.md) |
+| 2 | Sync that pulls KSP prices into the sheet | Done — 321 devices live, runs daily at 06:00 Israel time — [scraper.md](docs/scraper.md) |
 | 3 | Pricing API in ILS with Hebrew conditions | Built and tested — [pricing-api.md](docs/pricing-api.md) |
 
 ## Pricing model
@@ -55,7 +55,9 @@ scraper/config.py             Every knob: source, endpoint, safety limits
 scraper/sources.py            KSP catalogue-API adapter, plus the PelePhone page adapter
 scraper/normalize.py          Hebrew-aware brand, model, storage and price parsing
 scraper/sheets.py             The Google Sheet upsert, and the rules that keep it safe
-scraper/fetch.py              HTTP with retries, backoff and polite delays
+scraper/fetch.py              HTTP with retries, backoff, polite delays, optional proxy
+scraper/credentials.py        Service account key from the environment or a file
+scraper/notify.py             Result email over SMTP
 scraper/fixtures/             The real captured KSP response, used by the tests
 scraper/tests/                129 tests, all offline
 
@@ -124,7 +126,7 @@ cp .env.example .env
 python -m api.app                                            # dev, port 5000
 gunicorn --bind 0.0.0.0:5000 --workers 2 wsgi:application    # production
 
-python -m pytest tests scraper/tests -q   # 200 tests, offline
+python -m pytest tests scraper/tests -q   # 258 tests, offline
 ```
 
 ```bash

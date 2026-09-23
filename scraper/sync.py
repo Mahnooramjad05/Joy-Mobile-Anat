@@ -4,6 +4,7 @@
     python -m scraper.sync                    # scrape and update the sheet
     python -m scraper.sync --source pelephone # use the fallback source
     python -m scraper.sync --capture          # save raw HTML for selector work
+    python -m scraper.sync --only-at-hour 6 --tz Asia/Jerusalem   # scheduled run
 
 Exit codes, so a scheduler can tell what happened:
 
@@ -31,6 +32,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import config          # noqa: E402
+import notify         # noqa: E402
 import sheets          # noqa: E402
 from fetch import FetchError, Fetcher   # noqa: E402
 from sources import ParseError, get_source   # noqa: E402
@@ -41,16 +43,54 @@ EXIT_OK, EXIT_FETCH, EXIT_PARSE, EXIT_SHEET, EXIT_CONFIG = 0, 1, 2, 3, 4
 
 
 def main(argv=None):
+    """Guard the hour, run the sync, then notify. Returns the sync's exit code."""
     args = _parse_args(argv)
     _setup_logging(args.verbose)
+
+    if args.only_at_hour is not None and not _is_scheduled_hour(args.only_at_hour, args.tz):
+        # Coolify has no per-task timezone, so the task is scheduled at both
+        # candidate UTC hours and this decides which one does the work. A skip
+        # is a success: it must not look like a failure or send email.
+        log.info("not the %02d:00 hour in %s (it is %s) -- nothing to do",
+                 args.only_at_hour, args.tz, _local_clock(args.tz))
+        return EXIT_OK
+
+    outcome = {}
+    code = _run(args, outcome)
+    _notify(code, args, outcome)
+    return code
+
+
+def _notify(code, args, outcome):
+    """Email the result. Never changes the exit code."""
+    if args.dry_run:
+        log.info("dry run -- no email sent")
+        return
+    if not notify.is_configured():
+        log.info("email is not configured (SMTP_HOST / NOTIFY_TO) -- no email sent")
+        return
+
+    if code == EXIT_OK:
+        notify.send_success(outcome.get("counts", {}),
+                            spreadsheet_id=config.SPREADSHEET_ID,
+                            source=outcome.get("source", "KSP"))
+    else:
+        notify.send_failure(code, outcome.get("error", ""),
+                            source=outcome.get("source", "KSP"))
+
+
+def _run(args, outcome):
+    """The sync itself. Fills the outcome dict for the notification email."""
 
     try:
         settings = config.source_config(args.source)
     except KeyError as err:
         log.error("%s", err)
+        outcome["error"] = str(err)
         return EXIT_CONFIG
 
     source_name = args.source or config.SOURCE
+    outcome["source"] = settings.get("label", source_name)
     log.info("source: %s (%s)", settings["label"], settings["url"])
 
     fetcher = Fetcher(
@@ -58,6 +98,7 @@ def main(argv=None):
         delay_seconds=config.REQUEST_DELAY_SECONDS,
         timeout=config.REQUEST_TIMEOUT,
         max_retries=config.MAX_RETRIES,
+        proxy_url=config.KSP_PROXY_URL,
         backoff_seconds=config.BACKOFF_SECONDS,
     )
     source = get_source(source_name, settings)
@@ -73,6 +114,7 @@ def main(argv=None):
     except FetchError as err:
         log.error("FETCH FAILED: %s", err)
         log.error("The sheet has not been touched.")
+        outcome["error"] = str(err)
         _log_failure(source_name, "fetch_failed", str(err), args)
         return EXIT_FETCH
     except OSError as err:
@@ -89,6 +131,7 @@ def main(argv=None):
     except ParseError as err:
         log.error("PARSE FAILED: %s", err)
         log.error("The sheet has not been touched.")
+        outcome["error"] = str(err)
         if not args.capture:
             path = _save_capture(html, source_name, _capture_suffix(settings))
             log.error("Raw HTML saved to %s so the selectors can be fixed.", path)
@@ -102,6 +145,7 @@ def main(argv=None):
                    f"{config.MIN_DEVICES_EXPECTED}. Treating this as a broken scrape "
                    f"rather than writing it to the sheet.")
         log.error("PARSE SUSPECT: %s", message)
+        outcome["error"] = message
         _log_failure(source_name, "too_few_devices", message, args)
         return EXIT_PARSE
 
@@ -111,9 +155,11 @@ def main(argv=None):
     # exchange rate twitched, which buried real price changes in the log.
     source_currency = settings.get("currency", "ILS")
     if source_currency != config.SHEET_CURRENCY:
-        log.error("CURRENCY MISMATCH: %s quotes %s but the sheet stores %s. "
-                  "Add a conversion step before using this source.",
-                  settings["label"], source_currency, config.SHEET_CURRENCY)
+        message = (f"{settings['label']} quotes {source_currency} but the sheet "
+                   f"stores {config.SHEET_CURRENCY}")
+        log.error("CURRENCY MISMATCH: %s. Add a conversion step before using "
+                  "this source.", message)
+        outcome["error"] = message
         return EXIT_CONFIG
 
     # -------------------------------------------------------------- output
@@ -146,6 +192,8 @@ def main(argv=None):
             log.info("DRY RUN -- the sheet was not touched")
             return EXIT_OK
 
+        outcome["counts"] = _counts(devices, plan)
+
         if plan.is_empty:
             log.info("nothing to change")
             writer.log_run(status="success", source=source_name,
@@ -163,6 +211,7 @@ def main(argv=None):
             log.info("DRY RUN -- the sheet was not touched")
             return EXIT_OK
         log.error("SHEET FAILED: %s", err)
+        outcome["error"] = str(err)
         return EXIT_SHEET
 
     return EXIT_OK
@@ -187,16 +236,74 @@ def _parse_args(argv):
                         help="also write the scraped devices to a .json or .csv file")
     parser.add_argument("--no-deactivate", action="store_true",
                         help="do not deactivate sheet devices missing from the scrape")
+    parser.add_argument("--only-at-hour", type=int, metavar="HOUR",
+                        help="exit 0 without doing anything unless the local hour "
+                             "in --tz is HOUR. Lets one cron entry per candidate "
+                             "UTC hour cover a timezone that shifts with DST.")
+    parser.add_argument("--tz", default="Asia/Jerusalem", metavar="ZONE",
+                        help="timezone for --only-at-hour (default: Asia/Jerusalem)")
     parser.add_argument("-v", "--verbose", action="store_true", help="debug logging")
-    return parser.parse_args(argv)
+    args = parser.parse_args(argv)
+    if args.only_at_hour is not None and not 0 <= args.only_at_hour <= 23:
+        parser.error("--only-at-hour must be between 0 and 23")
+    return args
+
+
+def _zone(tz_name):
+    """The named timezone. Raises if the image has no tzdata."""
+    from zoneinfo import ZoneInfo
+    return ZoneInfo(tz_name)
+
+
+def _is_scheduled_hour(hour, tz_name, now=None):
+    """True when it is that hour in that timezone.
+
+    `now` may be any aware datetime, which is what makes this testable across a
+    DST boundary without waiting for October.
+
+    If the timezone cannot be resolved -- a slim image without tzdata -- the run
+    goes ahead rather than being skipped. Syncing at the wrong hour is a much
+    smaller problem than never syncing at all, and the log says why.
+    """
+    try:
+        zone = _zone(tz_name)
+    except Exception as err:      # noqa: BLE001
+        log.warning("cannot resolve timezone %s (%s); running regardless. "
+                    "Install tzdata in the image to make --only-at-hour work.",
+                    tz_name, err)
+        return True
+
+    local = now.astimezone(zone) if now is not None else dt.datetime.now(zone)
+    return local.hour == hour
+
+
+def _local_clock(tz_name):
+    try:
+        return dt.datetime.now(_zone(tz_name)).strftime("%H:%M %Z")
+    except Exception:             # noqa: BLE001
+        return dt.datetime.now().strftime("%H:%M (server time)")
+
+
+def _counts(devices, plan):
+    """The numbers the notification email reports."""
+    return {
+        "devices_found": len(devices),
+        "new_devices": len(plan.new_devices),
+        "prices_changed": len(plan.price_updates),
+        "deactivated": len(plan.deactivations),
+    }
 
 
 def _setup_logging(verbose):
-    os.makedirs(config.LOG_DIR, exist_ok=True)
-    handlers = [
-        logging.StreamHandler(sys.stdout),
-        logging.FileHandler(os.path.join(config.LOG_DIR, "sync.log"), encoding="utf-8"),
-    ]
+    handlers = [logging.StreamHandler(sys.stdout)]
+    try:
+        os.makedirs(config.LOG_DIR, exist_ok=True)
+        handlers.append(
+            logging.FileHandler(os.path.join(config.LOG_DIR, "sync.log"), encoding="utf-8"))
+    except OSError:
+        # Read-only or non-writable filesystem, as in a container. Console
+        # logging is enough -- Coolify captures stdout.
+        pass
     logging.basicConfig(
         level=logging.DEBUG if verbose else logging.INFO,
         format="%(asctime)s %(levelname)-7s %(name)s: %(message)s",

@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import logging
 import random
+import re
 import time
 
 import requests
@@ -22,7 +23,8 @@ class FetchError(RuntimeError):
 
 class Fetcher:
     def __init__(self, *, user_agent, accept_language="he-IL,he;q=0.9,en;q=0.8",
-                 delay_seconds=2.0, timeout=30, max_retries=3, backoff_seconds=5.0):
+                 delay_seconds=2.0, timeout=30, max_retries=3, backoff_seconds=5.0,
+                 proxy_url=None):
         self.delay_seconds = delay_seconds
         self.timeout = timeout
         self.max_retries = max_retries
@@ -35,6 +37,15 @@ class Fetcher:
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": accept_language,
         })
+
+        # Set on this session object only, never as a process-wide environment
+        # variable: the same run also talks to Google Sheets and an SMTP server,
+        # and neither should be routed through an Israeli proxy.
+        self.proxy_url = proxy_url or None
+        if self.proxy_url:
+            self.session.proxies = {"http": self.proxy_url, "https": self.proxy_url}
+            log.info("KSP requests will go through the configured proxy (%s)",
+                     _redact(self.proxy_url))
 
     def get(self, url, **kwargs):
         """GET a URL, retrying transient failures. Returns the response body."""
@@ -79,6 +90,14 @@ class Fetcher:
         if elapsed < self.delay_seconds:
             time.sleep(self.delay_seconds - elapsed)
         self._last_request_at = time.monotonic()
+
+
+def _redact(url):
+    """A proxy URL with any password removed, safe to log."""
+    match = re.match(r"^(\w+://)([^:@/]+):([^@/]*)@(.*)$", str(url))
+    if match:
+        return f"{match.group(1)}{match.group(2)}:***@{match.group(4)}"
+    return str(url)
 
 
 def _explain_status(response):

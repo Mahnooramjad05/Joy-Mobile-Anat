@@ -14,6 +14,8 @@ SOURCE = os.environ.get("TRADEIN_SOURCE", "ksp")
 # it with the service account. Override per run with TRADEIN_SPREADSHEET_ID.
 SPREADSHEET_ID = os.environ.get(
     "TRADEIN_SPREADSHEET_ID", "1KdcjtNqLkmJo4XYiGM2oX5lo9NjqfDKpGc8HCteFmGk")
+
+
 def _find_credentials():
     """The service account key, from the env var or the usual filenames."""
     explicit = os.environ.get("TRADEIN_CREDENTIALS")
@@ -37,6 +39,13 @@ USER_AGENT = os.environ.get(
     # what a site operator wants to see in their logs. Swap in a real address.
     "TradeInSyncBot/1.0 (+contact: your-email@example.com) python-requests",
 )
+# An HTTP(S) proxy for the KSP fetch ONLY. ksp.co.il refuses non-Israeli
+# addresses, so a run from outside Israel needs an exit node there. This is
+# applied to the source session alone -- Google Sheets and SMTP must not go
+# through it, which is why there is no reliance on a global HTTPS_PROXY.
+# Example: http://user:pass@proxy.example.co.il:8080
+KSP_PROXY_URL = os.environ.get("KSP_PROXY_URL", "").strip()
+
 REQUEST_DELAY_SECONDS = 2.0   # minimum gap between requests
 REQUEST_TIMEOUT = 30
 MAX_RETRIES = 3

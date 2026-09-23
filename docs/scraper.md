@@ -231,72 +231,89 @@ has failed three runs in a row". The tab is created on first use.
 
 ## Scheduling
 
-Daily is the right cadence: KSP's own FAQ says the price list "can update from
-day to day". Run it outside business hours so nobody is editing prices by hand
-while it writes.
+The sync runs daily at **06:00 Israel time**, as a Coolify Scheduled Task inside
+the already-running API container. No second image, no second server, no second
+copy of the credentials.
 
-**Where it runs matters more than when.** ksp.co.il returns HTTP 403 via
-Cloudflare from outside Israel, so the scheduled job has to originate somewhere
-KSP accepts — an office machine there, a small VPS in Israel, or a runner behind
-a VPN endpoint there. Everything below assumes that is sorted; a blocked run
-exits 1 and leaves the sheet untouched, so a misplaced scheduler is noisy rather
-than dangerous.
+### Why two cron entries, not one
 
-### Windows Task Scheduler
+Coolify has no per-task timezone. Its
+[docs](https://coolify.io/docs/core/automation/cron-syntax) say scheduled tasks
+use *"the timezone configured for the server that runs the application"*, and
+there is no per-task override. Israel is UTC+3 in summer and UTC+2 in winter, so
+06:00 local is 03:00Z for half the year and 04:00Z for the other half. A single
+fixed cron drifts by an hour twice a year.
 
-Save as `run-sync.bat` in the project root:
+So the task is scheduled at **both** candidate hours, and the sync itself decides
+which one does the work:
 
-```bat
-@echo off
-cd /d "C:\Users\pak\Desktop\KSP sync Anat"
-set TRADEIN_SPREADSHEET_ID=your_spreadsheet_id
-call .venv\Scripts\python.exe -m scraper.sync
-if errorlevel 1 echo Sync failed with code %errorlevel% >> logs\failures.log
+```bash
+python -m scraper.sync --only-at-hour 6 --tz Asia/Jerusalem
 ```
 
-Then: **Task Scheduler → Create Task → Triggers → Daily**, and under
-**Actions**, run `run-sync.bat` with **Start in** set to the project folder.
-Tick *Run whether user is logged on or not*.
+`--only-at-hour` exits 0 without touching anything unless it is that hour in that
+timezone. Exactly one of the two runs proceeds, every day of the year. A skipped
+run sends no email and is not a failure.
 
-### cron (macOS / Linux)
+If the Coolify server's timezone is already `Asia/Jerusalem`, a single entry at
+`0 6 * * *` works instead — the guard is harmless either way, and leaving it in
+means the schedule survives someone changing the server timezone later.
 
-```cron
-# 03:15 daily
-15 3 * * * cd /path/to/project && .venv/bin/python -m scraper.sync >> logs/cron.log 2>&1
+| Server timezone | Cron entries |
+| --- | --- |
+| UTC (Coolify's default) | `0 3 * * *` **and** `0 4 * * *` |
+| Asia/Jerusalem | `0 6 * * *` |
+
+The guard needs a timezone database. `python:3.11-slim` has none, so the
+Dockerfile installs `tzdata`; on Windows the PyPI `tzdata` package in
+requirements.txt does the same job. If the zone cannot be resolved the run goes
+ahead anyway and logs why — syncing at the wrong hour beats never syncing.
+
+### Email
+
+Every completed run emails a result. Configured only by environment variables,
+so no address or password is in the repository.
+
+| Variable | Purpose |
+| --- | --- |
+| `SMTP_HOST` | e.g. `smtp.gmail.com` |
+| `SMTP_PORT` | `587` for STARTTLS, `465` for implicit TLS |
+| `SMTP_USER` / `SMTP_PASSWORD` | the sending account and its **app password** |
+| `NOTIFY_FROM` | From: address (defaults to `SMTP_USER`) |
+| `NOTIFY_TO` | who gets "prices updated" |
+| `NOTIFY_FAILURE_TO` | who gets "sync failed" (defaults to `NOTIFY_TO`) |
+
+Success mail carries the run time in Israel time, devices found, new devices,
+prices changed, deactivated, and a link to the sheet. Failure mail leads with the
+fact that **the sheet was not changed and still holds the last good prices**,
+then the reason in one sentence and the exit code.
+
+No email on `--dry-run`, none when the hour guard skips, and none when
+`SMTP_HOST` or `NOTIFY_TO` is unset. **A mail failure never changes the exit
+code** — it is logged and swallowed, because an SMTP problem says nothing about
+whether the prices are right.
+
+### Credentials
+
+The sync reads `GOOGLE_CREDENTIALS_JSON` first — the whole key file as one
+variable, which is how a container gets a secret — and falls back to a key file
+so it still runs from a laptop. Same validation as the API.
+
+### The country block
+
+ksp.co.il returns 403 to non-Israeli addresses. If the server cannot reach it,
+set `KSP_PROXY_URL` to an Israeli HTTP proxy:
+
+```
+KSP_PROXY_URL=http://user:pass@proxy.example.co.il:8080
 ```
 
-### GitHub Actions
+It is applied **only to the KSP session**, never as a global `HTTPS_PROXY`, so
+Google Sheets and SMTP traffic go out normally. A password in that URL is
+redacted before anything is logged.
 
-Useful because it needs no always-on machine, **but GitHub's hosted runners are
-in the US and Europe and will be refused by the country block.** This works only
-with a self-hosted runner in Israel, or an egress proxy there.
-
-```yaml
-name: Sync trade-in prices
-on:
-  schedule:
-    - cron: "15 3 * * *"
-  workflow_dispatch:
-
-jobs:
-  sync:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - run: pip install -r requirements.txt
-      - run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > credentials.json
-      - run: python -m scraper.sync
-        env:
-          TRADEIN_SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
-```
-
-Put the whole contents of `credentials.json` into a repository secret named
-`GOOGLE_CREDENTIALS`. A failed run fails the workflow, so GitHub emails you.
-
----
+To find out whether the proxy is needed at all, run a dry run on the server and
+look at the exit code: 1 with "Blocked by Cloudflare" means it is.
 
 ## The ILS migration
 
