@@ -1,16 +1,14 @@
 # Device trade-in pricing API.
 #
-# IMPORTANT: build from the REPOSITORY ROOT, not from api/.
+#     docker build -t joy-mobile-api .
 #
-#     docker build -f api/Dockerfile -t joy-mobile-api .
+# This lives at the repository root because the build context has to be the
+# root: the api package uses relative imports (`from . import settings`), so it
+# must be importable as `api.app` with the root on the path, and
+# requirements.txt and wsgi.py are at the root too. Keeping the Dockerfile
+# beside them means no -f flag and no path override in Coolify.
 #
-# The api package uses relative imports (`from . import settings`), so it has to
-# be imported as `api.app` with the repository root on the path. requirements.txt
-# and wsgi.py also live at the root. A build context of api/ cannot see any of
-# that, so the context is the root and this file just happens to live in api/.
-#
-# In Coolify: Build Pack = Dockerfile, Dockerfile Location = /api/Dockerfile,
-# Base Directory = / (the repository root).
+# In Coolify: Build Pack = Dockerfile, everything else left at its default.
 
 FROM python:3.11-slim
 

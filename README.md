@@ -64,7 +64,7 @@ api/conditions.py             Hebrew <-> English condition mapping
 api/sheets_query.py           Device lookups, cached 30 min
 api/settings.py               Env / .env configuration
 wsgi.py                       Production entry point (gunicorn / Passenger)
-api/Dockerfile                Container image (build from the repo root)
+Dockerfile                    Container image for the API
 .dockerignore                 Build context exclusions, incl. every secret
 tests/test_api.py             API tests, all offline
 apps-script/Code.gs           Alternative serverless read API (EUR, English only)
@@ -138,7 +138,7 @@ millisecond once warm. Full reference and Hostinger deployment notes:
 Or in a container:
 
 ```bash
-docker build -f api/Dockerfile -t joy-mobile-api .   # build from the repo root
+docker build -t joy-mobile-api .
 docker run -p 5000:5000 \
   -e SPREADSHEET_ID=... -e GOOGLE_CREDENTIALS_JSON="$(cat google-credentials.json)" \
   joy-mobile-api

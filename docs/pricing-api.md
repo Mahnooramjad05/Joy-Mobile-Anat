@@ -212,8 +212,7 @@ Python `requests`, Postman and Heyy all send proper UTF-8 and are unaffected.
 ## Deploying with Docker (Coolify)
 
 ```bash
-# Build from the REPOSITORY ROOT, not from api/
-docker build -f api/Dockerfile -t joy-mobile-api .
+docker build -t joy-mobile-api .
 
 docker run -p 5000:5000 \
   -e SPREADSHEET_ID="1KdcjtNqLkmJo4XYiGM2oX5lo9NjqfDKpGc8HCteFmGk" \
@@ -221,18 +220,19 @@ docker run -p 5000:5000 \
   joy-mobile-api
 ```
 
-**The build context is the repository root even though the Dockerfile lives in
-`api/`.** The `api` package uses relative imports, so it has to be importable as
-`api.app` with the root on the path, and `requirements.txt` and `wsgi.py` are at
-the root too. A context of `api/` cannot see any of them.
+**The Dockerfile is at the repository root, and so is the build context.** The
+`api` package uses relative imports, so it has to be importable as `api.app`
+with the root on the path, and `requirements.txt` and `wsgi.py` are at the root
+too — a context of `api/` could not see any of them. Keeping the Dockerfile
+beside them means no `-f` flag and nothing to override in Coolify.
 
 ### Coolify settings
 
 | Setting | Value |
 | --- | --- |
 | Build Pack | Dockerfile |
-| Dockerfile Location | `/api/Dockerfile` |
-| Base Directory | `/` |
+| Dockerfile Location | `/Dockerfile` (the default) |
+| Base Directory | `/` (the default) |
 | Port | `5000` |
 | Health Check Path | `/health` |
 
@@ -257,9 +257,9 @@ the API; the sync is what needs Editor.
 
 Only `api/`, `wsgi.py`, `requirements.txt` and `scraper/config.py`. Not the
 tests, tools, docs, fixtures, captures or the sync's scraper code — the API only
-reads the sheet. `.dockerignore` lives at the repository root, because Docker
-reads it from the build context and not from beside the Dockerfile; one at
-`api/.dockerignore` would never be read.
+reads the sheet. `.dockerignore` sits beside the Dockerfile at the repository
+root, which is where Docker reads it from — it applies to the build context, not
+to the Dockerfile's directory.
 
 The image runs as a non-root user and contains no secrets.
 

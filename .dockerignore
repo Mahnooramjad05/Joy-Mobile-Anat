@@ -1,12 +1,11 @@
-# Docker reads .dockerignore from the build context root, not from beside the
-# Dockerfile. The context for api/Dockerfile is the repository root, so this
-# file lives here -- one at api/.dockerignore would never be read.
+# Docker reads .dockerignore from the build context root, which is also where
+# the Dockerfile lives.
 #
 # Two jobs: keep secrets out of the build, and keep the context small. Without
 # it, .venv and the 5 MB HAR capture are uploaded to the daemon on every build.
 
 # --- Secrets. These must never reach an image. -----------------------------
-# api/Dockerfile copies named paths rather than `COPY . .`, so nothing here
+# The Dockerfile copies named paths rather than `COPY . .`, so nothing here
 # would be picked up anyway -- but a build should not be one edit away from
 # baking a private key into a layer.
 credentials.json
@@ -57,7 +56,7 @@ apps-script/
 # --- Build files themselves ------------------------------------------------
 # Read by the builder via -f, so they do not need to be in the context, and
 # there is no reason to ship them inside the image.
-api/Dockerfile
+Dockerfile
 .dockerignore
 
 # --- Editor / OS -----------------------------------------------------------
