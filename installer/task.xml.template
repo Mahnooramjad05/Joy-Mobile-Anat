@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<!--
+  Task Scheduler definition for the daily KSP price update.
+
+  {{USERID}}, {{COMMAND}} and {{WORKDIR}} are filled in by Install.bat, because
+  the install path lives under the user's own AppData and the account name is
+  only known at install time.
+
+  The settings that matter, and why:
+    WakeToRun                   the laptop is asleep at 06:00
+    StartWhenAvailable          it was off at 06:00; run as soon as it is on
+    DisallowStartIfOnBatteries  false, or it silently skips when unplugged
+    StopIfGoingOnBatteries      false, for the same reason
+    LogonType InteractiveToken  runs as her, while she is logged in, so no
+                                password is stored anywhere
+    RunLevel LeastPrivilege     no admin rights needed
+    RestartOnFailure            two more attempts, 30 minutes apart
+    ExecutionTimeLimit PT30M    never leave a stuck run holding the machine
+-->
+<Task version="1.3" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+  <RegistrationInfo>
+    <Description>Updates KSP trade-in prices in the Google Sheet every morning at 06:00, and emails the result.</Description>
+    <URI>\KSP Price Update</URI>
+  </RegistrationInfo>
+  <Triggers>
+    <CalendarTrigger>
+      <StartBoundary>2026-01-01T06:00:00</StartBoundary>
+      <Enabled>true</Enabled>
+      <ScheduleByDay>
+        <DaysInterval>1</DaysInterval>
+      </ScheduleByDay>
+    </CalendarTrigger>
+  </Triggers>
+  <Principals>
+    <Principal id="Author">
+      <UserId>{{USERID}}</UserId>
+      <LogonType>InteractiveToken</LogonType>
+      <RunLevel>LeastPrivilege</RunLevel>
+    </Principal>
+  </Principals>
+  <Settings>
+    <MultipleInstancesPolicy>IgnoreNew</MultipleInstancesPolicy>
+    <DisallowStartIfOnBatteries>false</DisallowStartIfOnBatteries>
+    <StopIfGoingOnBatteries>false</StopIfGoingOnBatteries>
+    <AllowHardTerminate>true</AllowHardTerminate>
+    <StartWhenAvailable>true</StartWhenAvailable>
+    <RunOnlyIfNetworkAvailable>false</RunOnlyIfNetworkAvailable>
+    <IdleSettings>
+      <StopOnIdleEnd>false</StopOnIdleEnd>
+      <RestartOnIdle>false</RestartOnIdle>
+    </IdleSettings>
+    <AllowStartOnDemand>true</AllowStartOnDemand>
+    <Enabled>true</Enabled>
+    <Hidden>false</Hidden>
+    <RunOnlyIfIdle>false</RunOnlyIfIdle>
+    <WakeToRun>true</WakeToRun>
+    <ExecutionTimeLimit>PT30M</ExecutionTimeLimit>
+    <Priority>7</Priority>
+    <RestartOnFailure>
+      <Interval>PT30M</Interval>
+      <Count>2</Count>
+    </RestartOnFailure>
+  </Settings>
+  <Actions Context="Author">
+    <Exec>
+      <Command>{{COMMAND}}</Command>
+      <Arguments>scheduled</Arguments>
+      <WorkingDirectory>{{WORKDIR}}</WorkingDirectory>
+    </Exec>
+  </Actions>
+</Task>

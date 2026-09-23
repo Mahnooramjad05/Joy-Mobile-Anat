@@ -49,6 +49,8 @@ tools/build_workbook.py       Rebuilds the .xlsx from the same data
 tools/init_sheet_tabs.py      Builds Devices + Conditions in an empty sheet
 tools/reset_devices_tab.py    Clears the Devices data rows (one-off, guarded)
 tools/migrate_sheet_to_ils.py Renames the euro headers to shekels (one-off)
+tools/build_installer.py      Builds the Windows installer for running the sync in Israel
+installer/                    Install.bat, Uninstall.bat and the scheduled-task definition
 
 scraper/sync.py               Phase 2 entry point — fetch, convert, update the sheet
 scraper/config.py             Every knob: source, endpoint, safety limits

@@ -27,3 +27,8 @@ backups/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Installer build output. The zip contains the Google key and the email
+# password, so it must never be committed.
+build/
+dist/

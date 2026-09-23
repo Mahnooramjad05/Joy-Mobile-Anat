@@ -310,6 +310,71 @@ The sync reads `GOOGLE_CREDENTIALS_JSON` first — the whole key file as one
 variable, which is how a container gets a secret — and falls back to a key file
 so it still runs from a laptop. Same validation as the API.
 
+### Running it from Israel instead
+
+The country block is the reason the Coolify schedule cannot work: the server is
+not in Israel, so KSP refuses it. Rather than rent an Israeli proxy, the sync can
+run on a computer that is already there.
+
+`tools/build_installer.py` packages it as a Windows installer for exactly that.
+
+```bash
+python tools/build_installer.py --failure-to you@example.com
+# -> dist/KSP-Price-Update.zip
+```
+
+The recipient extracts the zip and double-clicks `Install.bat`. Nothing else:
+no Python, no terminal, no settings to edit, no admin rights, no password.
+
+**What is in the zip**
+
+| | |
+| --- | --- |
+| `Install.bat`, `Uninstall.bat` | the only two things at the top level |
+| `app/python/` | python.org's embeddable 3.12, with the dependencies inside it |
+| `app/scraper/` | the sync only -- no API, no tests, no fixtures |
+| `app/settings.env` | every setting pre-filled at build time |
+| `app/google-credentials.json` | the service account key |
+
+About 23 MB. The python.org build is used rather than PyInstaller on purpose:
+`python.exe` is signed by the Python Software Foundation and Windows Defender
+ignores it, while an unsigned PyInstaller one-file exe unpacks itself to a temp
+folder at startup and is flagged often enough to be a bad thing to hand someone
+in another country.
+
+**What Install.bat does**
+
+1. Copies the folder to `%LOCALAPPDATA%\KSP-Price-Update`. Running it again
+   upgrades in place.
+2. Registers a Task Scheduler task: daily at 06:00 local time, wake the machine,
+   run as soon as possible after a missed start, run on battery, retry twice
+   30 minutes apart, give up after 30 minutes. It runs as the logged-in user
+   (`InteractiveToken`), so Windows never stores a password.
+3. Adds a desktop shortcut, "Update KSP prices now".
+4. Runs it once immediately -- a real run that updates the sheet and sends the
+   email -- then shows a plain-English result and waits for a key press.
+
+**06:00 local, not UTC.** Her clock is Israel time, so Windows handles the
+daylight-saving change itself. `--only-at-hour` is deliberately not used here;
+that guard exists for Coolify, which has no per-task timezone.
+
+**Before each run it waits up to two minutes for the internet.** A laptop waking
+at 06:00 has a working scheduler before it has working Wi-Fi.
+
+**Logs** go to `app/logs/`, one file per run, pruned after 60 days.
+
+**The result screen** says one plain sentence per outcome -- cannot reach KSP,
+KSP's page changed, cannot reach the sheet, a setup problem, or no internet --
+each followed by "Please send Mahnoor a screenshot of this window". Every failure
+message also says the sheet was not changed, because that is the thing the
+person reading it actually needs to know.
+
+**The zip contains real secrets** -- the service account key and the Gmail app
+password -- so `dist/` and `build/` are gitignored. Never commit the zip, and
+send it over something private: a password-protected 7-Zip archive with the
+password sent separately, a Google Drive share limited to her account, or
+WhatsApp/Signal to her directly. Not plain email, and not a public link.
+
 ### The country block
 
 ksp.co.il returns 403 to non-Israeli addresses. If the server cannot reach it,
