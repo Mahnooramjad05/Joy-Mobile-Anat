@@ -25,6 +25,26 @@ VALID_KEY = (
     '"client_email":"bot@p.iam.gserviceaccount.com","private_key":"x"}'
 )
 
+# Everything these tests care about. Cleared before each one, because
+# api/settings.py calls load_dotenv() at import and a developer's real .env
+# would otherwise decide how the tests behave -- and on a machine with working
+# SMTP settings, a test could try to send actual mail.
+MANAGED_VARS = (
+    "SMTP_HOST", "SMTP_PORT", "SMTP_USER", "SMTP_PASSWORD", "SMTP_PASS",
+    "NOTIFY_FROM", "NOTIFY_TO", "NOTIFY_FAILURE_TO",
+    "EMAIL_FROM", "EMAIL_TO", "EMAIL_FAILURE_TO",
+    "MAIL_FROM", "MAIL_TO", "ALERT_TO",
+    "GOOGLE_CREDENTIALS_JSON", "KSP_PROXY_URL",
+    "HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy",
+)
+
+
+@pytest.fixture(autouse=True)
+def clean_environment(monkeypatch):
+    """Run every test against a known-empty environment."""
+    for name in MANAGED_VARS:
+        monkeypatch.delenv(name, raising=False)
+
 
 # ======================================================== credentials from env
 
@@ -415,3 +435,54 @@ class TestCountsForTheEmail:
         counts = sync._counts([0] * 321, FakePlan())
         assert counts == {"devices_found": 321, "new_devices": 2,
                           "prices_changed": 47, "deactivated": 1}
+
+
+class TestForgivingVariableNames:
+    """SMTP_PASS / EMAIL_FROM / EMAIL_TO are what people actually type."""
+
+    @pytest.mark.parametrize("alias,canonical", [
+        ("EMAIL_TO", "NOTIFY_TO"),
+        ("EMAIL_FROM", "NOTIFY_FROM"),
+        ("SMTP_PASS", "SMTP_PASSWORD"),
+    ])
+    def test_aliases_are_accepted(self, monkeypatch, alias, canonical):
+        monkeypatch.delenv(canonical, raising=False)
+        monkeypatch.setenv(alias, "value@example.com")
+        assert notify._env(canonical) == "value@example.com"
+
+    def test_the_canonical_name_wins(self, monkeypatch):
+        monkeypatch.setenv("NOTIFY_TO", "canonical@example.com")
+        monkeypatch.setenv("EMAIL_TO", "alias@example.com")
+        assert notify._env("NOTIFY_TO") == "canonical@example.com"
+
+    def test_email_sends_with_only_aliases_set(self, monkeypatch):
+        for name in ("NOTIFY_TO", "NOTIFY_FROM", "SMTP_PASSWORD"):
+            monkeypatch.delenv(name, raising=False)
+        monkeypatch.setenv("SMTP_HOST", "smtp.example.com")
+        monkeypatch.setenv("SMTP_USER", "bot@example.com")
+        monkeypatch.setenv("SMTP_PASS", "app-password")
+        monkeypatch.setenv("EMAIL_FROM", "bot@example.com")
+        monkeypatch.setenv("EMAIL_TO", "anat@example.com")
+
+        recorder = Recorder()
+        monkeypatch.setattr(notify.smtplib, "SMTP", recorder)
+        assert notify.is_configured() is True
+        assert notify.send_success(COUNTS, when=WHEN) is True
+        assert recorder.sent[0]["To"] == "anat@example.com"
+
+    def test_half_configured_warns_rather_than_skipping_quietly(self, monkeypatch, caplog):
+        for name in ("NOTIFY_TO", "EMAIL_TO", "MAIL_TO"):
+            monkeypatch.delenv(name, raising=False)
+        monkeypatch.setenv("SMTP_HOST", "smtp.example.com")
+
+        with caplog.at_level("WARNING"):
+            assert notify.is_configured() is False
+        assert "half configured" in caplog.text
+        assert "NOTIFY_TO" in caplog.text
+
+    def test_nothing_configured_stays_quiet(self, monkeypatch, caplog):
+        for name in ("SMTP_HOST", "SMTP_USER", "NOTIFY_TO", "EMAIL_TO", "MAIL_TO"):
+            monkeypatch.delenv(name, raising=False)
+        with caplog.at_level("WARNING"):
+            assert notify.is_configured() is False
+        assert "half configured" not in caplog.text

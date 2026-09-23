@@ -283,6 +283,17 @@ so no address or password is in the repository.
 | `NOTIFY_TO` | who gets "prices updated" |
 | `NOTIFY_FAILURE_TO` | who gets "sync failed" (defaults to `NOTIFY_TO`) |
 
+`SMTP_PASS`, `EMAIL_FROM` and `EMAIL_TO` are accepted as aliases for the three
+names that are easiest to misremember. If only some of the settings are present
+the sync logs **"email is only half configured -- missing ..."** and names what
+is absent, rather than skipping quietly: a half-set-up mailer that silently
+sends nothing is the failure nobody notices for weeks.
+
+**Configuration comes from the environment, never from the Google Sheet.** The
+sheet is the price database; it is shared with the service account, keeps every
+past value in its revision history, and is not a secret store. An SMTP password
+belongs in Coolify's environment variables.
+
 Success mail carries the run time in Israel time, devices found, new devices,
 prices changed, deactivated, and a link to the sheet. Failure mail leads with the
 fact that **the sheet was not changed and still holds the last good prices**,

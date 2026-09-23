@@ -11,6 +11,9 @@ in the repository:
     NOTIFY_TO           who gets the "prices updated" mail
     NOTIFY_FAILURE_TO   who gets the "sync failed" mail (defaults to NOTIFY_TO)
 
+SMTP_PASS, EMAIL_FROM and EMAIL_TO are accepted as aliases for the three most
+easily misremembered names.
+
 Gmail with an App Password is the expected setup, but nothing here is specific
 to Gmail: any host that speaks SMTP with STARTTLS works, and port 465 switches
 to implicit TLS automatically.
@@ -42,19 +45,56 @@ EXIT_REASONS = {
 }
 
 
-def is_configured():
-    """True when enough is set to attempt a send."""
-    return bool(os.environ.get("SMTP_HOST") and _recipients("NOTIFY_TO"))
+# Names people reasonably reach for, accepted as aliases. Half-configured email
+# is worse than none, because the run looks fine and nobody hears anything.
+ALIASES = {
+    "SMTP_PASSWORD": ("SMTP_PASS",),
+    "NOTIFY_FROM": ("EMAIL_FROM", "MAIL_FROM"),
+    "NOTIFY_TO": ("EMAIL_TO", "MAIL_TO"),
+    "NOTIFY_FAILURE_TO": ("EMAIL_FAILURE_TO", "ALERT_TO"),
+}
 
 
 def _env(name, default=""):
-    return os.environ.get(name, default).strip()
+    """A setting, by its canonical name or any accepted alias."""
+    value = os.environ.get(name, "")
+    if value.strip():
+        return value.strip()
+    for alias in ALIASES.get(name, ()):
+        value = os.environ.get(alias, "")
+        if value.strip():
+            return value.strip()
+    return default
 
 
 def _recipients(name):
     """Addresses from a comma- or semicolon-separated variable."""
     raw = _env(name)
     return [a.strip() for a in raw.replace(";", ",").split(",") if a.strip()]
+
+
+def is_configured():
+    """True when enough is set to attempt a send.
+
+    Says plainly what is missing when the configuration is partial, rather than
+    skipping quietly -- a half-set-up mailer is the failure mode that goes
+    unnoticed for weeks.
+    """
+    host = _env("SMTP_HOST")
+    recipients = _recipients("NOTIFY_TO")
+
+    if host and recipients:
+        return True
+
+    if host or recipients or _env("SMTP_USER"):
+        missing = []
+        if not host:
+            missing.append("SMTP_HOST")
+        if not recipients:
+            missing.append("NOTIFY_TO (or EMAIL_TO)")
+        log.warning("email is only half configured -- missing %s. No mail will "
+                    "be sent. See docs/scraper.md, 'Email'.", " and ".join(missing))
+    return False
 
 
 def israel_now():
@@ -186,7 +226,7 @@ def send(subject, plain, html, *, to=None, failure=False):
 
         port = int(_env("SMTP_PORT", "587") or 587)
         user = _env("SMTP_USER")
-        password = os.environ.get("SMTP_PASSWORD", "")
+        password = _env("SMTP_PASSWORD")
         sender = _env("NOTIFY_FROM") or user
         if not sender:
             log.warning("neither NOTIFY_FROM nor SMTP_USER is set; skipping the email")
